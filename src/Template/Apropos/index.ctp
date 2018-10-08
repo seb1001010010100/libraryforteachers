@@ -22,6 +22,7 @@
       Description : Ce site est une librairie pour professeur.</br>
       Le professeur peu ce connecter, voir la liste des livres disponible ou non, louer des livres, voir ses prèt, voir la liste des auteurs et categories de livres.</br>
       Un visiteur peu seulement voir la liste des livres, s'inscrire, voir la page a propos, et se connecter. </br>
-      L'admin a le droit de tout faire. Email : admin@admin.com MDP: z </br></p>
+      L'admin a le droit de tout faire. Email : admin@admin.com MDP: z </br>
+      **Note: La table i18n pour la translation de la base de donnée marche avec MySql, mais pas avec Sqlite.</p></br>
       <?= $this->Html->link(__('Lien vers le model original'), 'http://www.databaseanswers.org/data_models/library_for_teachers/index.htm'); ?></br>
       <td><?= $this->Html->image('library_for_teachers_dezign.png'); ?></td></br>

@@ -29,7 +29,7 @@ $cakeDescription = "library for teacher";
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('style.css') ?>
 
-    <?php if($this->Session->read("Auth.User.type") == 'teacher'){?>
+    <?php if($this->Session->read("Auth.User.type") == 'teacher' || !$this->Session->read("Auth.User")){ ?>
 
       <?=   $this->Html->css('teachers.css') ?>
 
