@@ -1,0 +1,1046 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-10-07 21:12+0000\n"
+"PO-Revision-Date: 2018-10-07 18:10-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+
+#: Controller/AppController.php:83
+msgid ""
+"This user is not activated. You won't be able to rent book. Please confirm "
+"your email."
+msgstr ""
+"Dieser Benutzer wird nicht aktiviert. Sie werden nicht in der Lage sein, "
+"Buch zu mieten. Bitte bestätigen Sie Ihre e-Mail."
+
+#: Controller/AuthorsBooksController.php:58;84
+msgid "The authors book has been saved."
+msgstr "Das Autoren Buch ist gerettet."
+
+#: Controller/AuthorsBooksController.php:62;88
+msgid "The authors book could not be saved. Please, try again."
+msgstr ""
+"Das Autoren Buch konnte nicht gerettet werden. Bitte versuchen Sie es noch "
+"einmal."
+
+#: Controller/AuthorsBooksController.php:107
+msgid "The authors book has been deleted."
+msgstr "Das Autoren Buch wurde gestrichen."
+
+#: Controller/AuthorsBooksController.php:109
+msgid "The authors book could not be deleted. Please, try again."
+msgstr ""
+"Das Autoren Buch konnte nicht gelöscht werden. Bitte versuchen Sie es noch "
+"einmal."
+
+#: Controller/AuthorsController.php:55;80
+msgid "The author has been saved."
+msgstr "Der Autor wurde gerettet."
+
+#: Controller/AuthorsController.php:59;84
+msgid "The author could not be saved. Please, try again."
+msgstr ""
+"Der Autor konnte nicht gerettet werden. Bitte versuchen Sie es noch einmal."
+
+#: Controller/AuthorsController.php:102
+msgid "The author has been deleted."
+msgstr "Der Autor wurde gelöscht."
+
+#: Controller/AuthorsController.php:104
+msgid "The author could not be deleted. Please, try again."
+msgstr ""
+"Der Autor konnte nicht gelöscht werden. Bitte versuchen Sie es noch einmal."
+
+#: Controller/BooksCategoriesController.php:58;84
+msgid "The books category has been saved."
+msgstr "Die Kategorie Bücher wurde gespeichert."
+
+#: Controller/BooksCategoriesController.php:62;88
+msgid "The books category could not be saved. Please, try again."
+msgstr ""
+"Die Kategorie Bücher konnte nicht gespeichert werden. Bitte versuchen Sie "
+"es noch einmal."
+
+#: Controller/BooksCategoriesController.php:107
+msgid "The books category has been deleted."
+msgstr "Die Kategorie Bücher wurde gestrichen."
+
+#: Controller/BooksCategoriesController.php:109
+msgid "The books category could not be deleted. Please, try again."
+msgstr ""
+"Die Kategorie Bücher konnte nicht gelöscht werden. Bitte versuchen Sie es "
+"noch einmal."
+
+#: Controller/BooksController.php:69;85;122;133
+msgid "The book has been saved."
+msgstr "Das Buch ist gerettet."
+
+#: Controller/BooksController.php:73;89;126;137;140
+msgid "The book could not be saved. Please, try again."
+msgstr ""
+"Das Buch konnte nicht gerettet werden. Bitte versuchen Sie es noch einmal."
+
+#: Controller/BooksController.php:75;128
+msgid "The image could not be saved. Please, try again."
+msgstr "Das Bild konnte nicht gespeichert werden. Bitte versuche es erneut."
+
+#: Controller/BooksController.php:159
+msgid "The book has been deleted."
+msgstr "Das Buch wurde gelöscht."
+
+#: Controller/BooksController.php:161
+msgid "The book could not be deleted. Please, try again."
+msgstr ""
+"Das Buch konnte nicht gelöscht werden. Bitte versuchen Sie es noch einmal."
+
+#: Controller/BooksController.php:190 Controller/LoansController.php:58;84
+msgid "The loan has been saved."
+msgstr "Das Darlehen wurde gespart."
+
+#: Controller/BooksController.php:197 Controller/LoansController.php:62;88
+msgid "The loan could not be saved. Please, try again."
+msgstr ""
+"Der Kredit konnte nicht gespart werden. Bitte versuchen Sie es noch einmal."
+
+#: Controller/BooksController.php:225
+msgid "You must be an active user in order to rent book."
+msgstr "Sie müssen ein aktiver Benutzer sein, um Buch zu mieten."
+
+#: Controller/CategoriesController.php:55;80
+msgid "The category has been saved."
+msgstr "Die Kategorie ist gerettet."
+
+#: Controller/CategoriesController.php:59;84
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+"Die Kategorie konnte nicht gespart werden. Bitte versuchen Sie es noch "
+"einmal."
+
+#: Controller/CategoriesController.php:102
+msgid "The category has been deleted."
+msgstr "Die Kategorie wurde gelöscht."
+
+#: Controller/CategoriesController.php:104
+msgid "The category could not be deleted. Please, try again."
+msgstr ""
+"Die Kategorie konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/LibraryRulesController.php:55;79
+msgid "The library rule has been saved."
+msgstr "Die Bibliotheks Regel ist gerettet."
+
+#: Controller/LibraryRulesController.php:59;83
+msgid "The library rule could not be saved. Please, try again."
+msgstr ""
+"Die Bibliotheks Regel konnte nicht gerettet werden. Bitte versuchen Sie es "
+"noch einmal."
+
+#: Controller/LibraryRulesController.php:100
+msgid "The library rule has been deleted."
+msgstr "Die Bibliotheks Regel wurde gestrichen."
+
+#: Controller/LibraryRulesController.php:102
+msgid "The library rule could not be deleted. Please, try again."
+msgstr ""
+"Die Bibliotheks Regel konnte nicht gelöscht werden. Bitte versuchen Sie es "
+"noch einmal."
+
+#: Controller/LoansController.php:107
+msgid "The loan has been deleted."
+msgstr "Das Darlehen wurde gestrichen."
+
+#: Controller/LoansController.php:109
+msgid "The loan could not be deleted. Please, try again."
+msgstr ""
+"Der Kredit konnte nicht gestrichen werden. Bitte versuchen Sie es noch "
+"einmal."
+
+#: Controller/TeachersController.php:89
+msgid ""
+"The teacher has been registered. An email was sent in order to activate it."
+msgstr ""
+"Der Lehrer wurde registriert. Eine e-Mail wurde verschickt, um Sie zu "
+"aktivieren."
+
+#: Controller/TeachersController.php:96;124
+msgid "The teacher could not be saved. Please, try again."
+msgstr ""
+"Der Lehrer konnte nicht gerettet werden. Bitte versuchen Sie es noch "
+"einmal."
+
+#: Controller/TeachersController.php:120
+msgid "The teacher has been saved."
+msgstr "Der Lehrer wurde gerettet."
+
+#: Controller/TeachersController.php:142
+msgid "The teacher has been deleted."
+msgstr "Der Lehrer wurde gelöscht."
+
+#: Controller/TeachersController.php:144
+msgid "The teacher could not be deleted. Please, try again."
+msgstr ""
+"Der Lehrer konnte nicht gelöscht werden. Bitte versuchen Sie es noch "
+"einmal."
+
+#: Controller/UsersController.php:72;96
+msgid "The user has been saved."
+msgstr "Der Benutzer wurde gespeichert."
+
+#: Controller/UsersController.php:76;100
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden. Bitte versuche es erneut."
+
+#: Controller/UsersController.php:117
+msgid "The user has been deleted."
+msgstr "Der Benutzer wurde gelöscht."
+
+#: Controller/UsersController.php:119
+msgid "The user could not be deleted. Please, try again."
+msgstr "Der Benutzer konnte nicht gelöscht werden. Bitte versuche es erneut."
+
+#: Controller/UsersController.php:132
+msgid "Your username or password is incorrect."
+msgstr "Ihr Benutzername oder Passwort ist falsch."
+
+#: Controller/UsersController.php:149
+msgid "The user has been activated."
+msgstr "Der Benutzer wurde aktiviert."
+
+#: Controller/UsersController.php:154
+msgid "The user could not be activated. Please try again."
+msgstr ""
+"Der Nutzer konnte nicht aktiviert werden. Bitte versuchen Sie es noch "
+"einmal."
+
+#: Controller/UsersController.php:173
+msgid "The confirmation mail was resent."
+msgstr "Die Bestätigungsmail wurde zurückgeschickt."
+
+#: Controller/UsersController.php:179
+msgid "The confirmation mail could not be resent."
+msgstr "Die Bestätigungsmail konnte nicht zurückgeschickt werden."
+
+#: Template/Apropos/index.ctp:10 Template/Authors/add.ctp:9
+#: Template/Authors/edit.ctp:9 Template/Authors/index.ctp:10;24
+#: Template/Authors/view.ctp:10;41 Template/Books/add.ctp:10
+#: Template/Books/edit.ctp:9 Template/Books/index.ctp:10;30
+#: Template/Books/rent.ctp:11 Template/Books/view.ctp:10;44;68
+#: Template/Categories/add.ctp:9 Template/Categories/edit.ctp:9
+#: Template/Categories/index.ctp:10;23 Template/Categories/view.ctp:10;31
+#: Template/LibraryRules/add.ctp:9 Template/LibraryRules/edit.ctp:9
+#: Template/LibraryRules/index.ctp:9;21 Template/LibraryRules/view.ctp:9
+#: Template/Loans/add.ctp:9 Template/Loans/edit.ctp:9
+#: Template/Loans/index.ctp:9;30 Template/Loans/view.ctp:10
+#: Template/Teachers/add.ctp:10 Template/Teachers/edit.ctp:9
+#: Template/Teachers/index.ctp:9;31 Template/Teachers/view.ctp:10;62
+#: Template/Users/add.ctp:9 Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9;23 Template/Users/view.ctp:9;57
+msgid "Actions"
+msgstr "Aktionen"
+
+#: Template/Apropos/index.ctp:11 Template/Authors/index.ctp:11
+#: Template/Authors/view.ctp:14 Template/Books/add.ctp:15
+#: Template/Books/edit.ctp:20 Template/Books/index.ctp:15
+#: Template/Books/rent.ctp:16 Template/Books/view.ctp:18
+msgid "New Author"
+msgstr "Neuer Autor"
+
+#: Template/Apropos/index.ctp:12 Template/Authors/add.ctp:11
+#: Template/Authors/edit.ctp:17 Template/Authors/index.ctp:12
+#: Template/Authors/view.ctp:15 Template/Books/add.ctp:11
+#: Template/Books/edit.ctp:16 Template/Books/view.ctp:13
+#: Template/Categories/add.ctp:11 Template/Categories/edit.ctp:17
+#: Template/Categories/index.ctp:12 Template/Categories/view.ctp:15
+#: Template/Loans/add.ctp:13 Template/Loans/edit.ctp:19
+#: Template/Loans/index.ctp:13 Template/Loans/view.ctp:17
+msgid "List Books"
+msgstr "Listen Bücher"
+
+#: Template/Apropos/index.ctp:13 Template/Authors/add.ctp:12
+#: Template/Authors/edit.ctp:18 Template/Authors/index.ctp:13
+#: Template/Authors/view.ctp:16 Template/Books/index.ctp:11
+#: Template/Books/rent.ctp:12 Template/Books/view.ctp:14
+#: Template/Categories/add.ctp:12 Template/Categories/edit.ctp:18
+#: Template/Categories/index.ctp:13 Template/Categories/view.ctp:16
+#: Template/Loans/add.ctp:14 Template/Loans/edit.ctp:20
+#: Template/Loans/index.ctp:14 Template/Loans/view.ctp:18
+msgid "New Book"
+msgstr "Neuen Film"
+
+#: Template/Apropos/index.ctp:18
+msgid "A Propos"
+msgstr "A propos"
+
+#: Template/Apropos/index.ctp:26
+msgid "Lien vers le model"
+msgstr "Lien vers le Model"
+
+#: Template/Authors/add.ctp:10 Template/Authors/edit.ctp:16
+#: Template/Authors/view.ctp:13 Template/Books/add.ctp:14
+#: Template/Books/edit.ctp:19 Template/Books/index.ctp:14
+#: Template/Books/rent.ctp:15 Template/Books/view.ctp:17
+msgid "List Authors"
+msgstr "Listen Autoren"
+
+#: Template/Authors/add.ctp:19
+msgid "Add Author"
+msgstr "Autor hinzufügen"
+
+#: Template/Authors/add.ctp:25 Template/Authors/edit.ctp:31
+#: Template/Books/add.ctp:32 Template/Books/edit.ctp:39
+#: Template/Categories/add.ctp:23 Template/Categories/edit.ctp:29
+#: Template/LibraryRules/add.ctp:21 Template/LibraryRules/edit.ctp:27
+#: Template/Loans/add.ctp:29 Template/Loans/edit.ctp:36
+#: Template/Teachers/add.ctp:34 Template/Teachers/edit.ctp:37
+#: Template/Users/add.ctp:26 Template/Users/edit.ctp:32
+#: View/Helper/FormHelper.php:1988
+msgid "Submit"
+msgstr "einreichen"
+
+#: Template/Authors/edit.ctp:11 Template/Authors/index.ctp:36
+#: Template/Authors/view.ctp:63 Template/Books/edit.ctp:11
+#: Template/Books/index.ctp:59 Template/Books/view.ctp:54;77
+#: Template/Categories/edit.ctp:11 Template/Categories/index.ctp:34
+#: Template/Categories/view.ctp:53 Template/LibraryRules/edit.ctp:11
+#: Template/LibraryRules/index.ctp:33 Template/Loans/edit.ctp:11
+#: Template/Loans/index.ctp:47 Template/Teachers/edit.ctp:11
+#: Template/Teachers/index.ctp:49 Template/Teachers/view.ctp:82
+#: Template/Users/edit.ctp:11 Template/Users/index.ctp:35
+#: Template/Users/view.ctp:74
+msgid "Delete"
+msgstr "Löschen"
+
+#: Template/Authors/edit.ctp:13 Template/Authors/index.ctp:36
+#: Template/Authors/view.ctp:12;63 Template/Books/edit.ctp:13
+#: Template/Books/index.ctp:59 Template/Books/view.ctp:12;54;77
+#: Template/Categories/edit.ctp:13 Template/Categories/index.ctp:34
+#: Template/Categories/view.ctp:12;53 Template/LibraryRules/edit.ctp:13
+#: Template/LibraryRules/index.ctp:33 Template/LibraryRules/view.ctp:11
+#: Template/Loans/edit.ctp:13 Template/Loans/index.ctp:47
+#: Template/Loans/view.ctp:12 Template/Teachers/edit.ctp:13
+#: Template/Teachers/index.ctp:49 Template/Teachers/view.ctp:12;82
+#: Template/Users/edit.ctp:13 Template/Users/index.ctp:35
+#: Template/Users/view.ctp:11;74
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Möchten Sie # {0} wirklich löschen?"
+
+#: Template/Authors/edit.ctp:24 Template/Authors/view.ctp:11
+msgid "Edit Author"
+msgstr "Neuer Autor"
+
+#: Template/Authors/index.ctp:18 Template/Books/view.ctp:38
+msgid "Authors"
+msgstr "Das Autoren Buch ist gerettet."
+
+#: Template/Authors/index.ctp:33 Template/Authors/view.ctp:60
+#: Template/Books/index.ctp:53 Template/Books/view.ctp:51;74
+#: Template/Categories/index.ctp:31 Template/Categories/view.ctp:50
+#: Template/LibraryRules/index.ctp:31 Template/Loans/index.ctp:45
+#: Template/Teachers/index.ctp:47 Template/Teachers/view.ctp:79
+#: Template/Users/index.ctp:33 Template/Users/view.ctp:72
+#: View/Helper/PaginatorHelper.php:1212
+msgid "View"
+msgstr "Aussicht"
+
+#: Template/Authors/index.ctp:35 Template/Authors/view.ctp:62
+#: Template/Books/index.ctp:58 Template/Books/view.ctp:53;76
+#: Template/Categories/index.ctp:33 Template/Categories/view.ctp:52
+#: Template/LibraryRules/index.ctp:32 Template/Loans/index.ctp:46
+#: Template/Teachers/index.ctp:48 Template/Teachers/view.ctp:81
+#: Template/Users/index.ctp:34 Template/Users/view.ctp:73
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: Template/Authors/index.ctp:45 Template/Books/index.ctp:68
+#: Template/Categories/index.ctp:43 Template/LibraryRules/index.ctp:41
+#: Template/Loans/index.ctp:55 Template/Teachers/index.ctp:57
+#: Template/Users/index.ctp:43
+msgid "first"
+msgstr "zuerst"
+
+#: Template/Authors/index.ctp:46 Template/Books/index.ctp:69
+#: Template/Categories/index.ctp:44 Template/LibraryRules/index.ctp:42
+#: Template/Loans/index.ctp:56 Template/Teachers/index.ctp:58
+#: Template/Users/index.ctp:44
+msgid "previous"
+msgstr "Bisherige"
+
+#: Template/Authors/index.ctp:48 Template/Books/index.ctp:71
+#: Template/Categories/index.ctp:46 Template/LibraryRules/index.ctp:44
+#: Template/Loans/index.ctp:58 Template/Teachers/index.ctp:60
+#: Template/Users/index.ctp:46
+msgid "next"
+msgstr "Nächster"
+
+#: Template/Authors/index.ctp:49 Template/Books/index.ctp:72
+#: Template/Categories/index.ctp:47 Template/LibraryRules/index.ctp:45
+#: Template/Loans/index.ctp:59 Template/Teachers/index.ctp:61
+#: Template/Users/index.ctp:47
+msgid "last"
+msgstr "letzte"
+
+#: Template/Authors/index.ctp:51 Template/Books/index.ctp:74
+#: Template/Categories/index.ctp:49 Template/LibraryRules/index.ctp:47
+#: Template/Loans/index.ctp:61 Template/Teachers/index.ctp:63
+#: Template/Users/index.ctp:49
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+"Seite {{page}} von {{pages}}, die {{current}} Datensätze von {{count}} "
+"gesamt anzeigt"
+
+#: Template/Authors/view.ctp:12
+msgid "Delete Author"
+msgstr "Autor löschen"
+
+#: Template/Authors/view.ctp:24 Template/Books/view.ctp:42
+#: Template/Teachers/view.ctp:26 Template/Users/view.ctp:48
+msgid "First Name"
+msgstr "Vorname"
+
+#: Template/Authors/view.ctp:28 Template/Books/view.ctp:43
+msgid "Surname"
+msgstr "Nachname"
+
+#: Template/Authors/view.ctp:33
+msgid "Author's Books"
+msgstr "Autorenbücher"
+
+#: Template/Authors/view.ctp:37 Template/Books/rent.ctp:27
+#: Template/Books/view.ctp:29 Template/Categories/view.ctp:27
+msgid "Image"
+msgstr "Bild"
+
+#: Template/Authors/view.ctp:38 Template/Categories/view.ctp:28
+#: Template/Teachers/view.ctp:57
+msgid "Book Title"
+msgstr "Buchtitel"
+
+#: Template/Authors/view.ctp:39 Template/Books/view.ctp:33
+#: Template/Categories/view.ctp:29
+msgid "Date Of Publication"
+msgstr "Veröffentlichungsdatum"
+
+#: Template/Authors/view.ctp:40 Template/Categories/view.ctp:30
+msgid "Status"
+msgstr "Status"
+
+#: Template/Authors/view.ctp:52 Template/Books/index.ctp:43
+#: Template/Categories/view.ctp:42
+msgid "Available"
+msgstr "Verfügbar"
+
+#: Template/Authors/view.ctp:56 Template/Books/index.ctp:47
+#: Template/Categories/view.ctp:46
+msgid "Rented"
+msgstr "Gemietet"
+
+#: Template/Books/add.ctp:12 Template/Books/edit.ctp:17
+#: Template/Books/index.ctp:12 Template/Books/rent.ctp:13
+#: Template/Books/view.ctp:15 Template/Loans/add.ctp:10
+#: Template/Loans/edit.ctp:16 Template/Loans/view.ctp:13
+#: Template/Teachers/add.ctp:14 Template/Teachers/edit.ctp:19
+#: Template/Teachers/index.ctp:13 Template/Teachers/view.ctp:17
+msgid "List Loans"
+msgstr "Liste Darlehen"
+
+#: Template/Books/add.ctp:13 Template/Books/edit.ctp:18
+#: Template/Books/index.ctp:13 Template/Books/rent.ctp:14
+#: Template/Books/view.ctp:16 Template/Loans/index.ctp:10
+#: Template/Loans/view.ctp:14 Template/Teachers/add.ctp:15
+#: Template/Teachers/edit.ctp:20 Template/Teachers/index.ctp:14
+#: Template/Teachers/view.ctp:18
+msgid "New Loan"
+msgstr "Neuer Kredit"
+
+#: Template/Books/add.ctp:16 Template/Books/edit.ctp:21
+#: Template/Books/index.ctp:16 Template/Books/rent.ctp:17
+#: Template/Books/view.ctp:19 Template/Categories/add.ctp:10
+#: Template/Categories/edit.ctp:16 Template/Categories/view.ctp:13
+msgid "List Categories"
+msgstr "Kategorien auflisten"
+
+#: Template/Books/add.ctp:17 Template/Books/edit.ctp:22
+#: Template/Books/index.ctp:17 Template/Books/rent.ctp:18
+#: Template/Books/view.ctp:20 Template/Categories/index.ctp:11
+#: Template/Categories/view.ctp:14
+msgid "New Category"
+msgstr "Neue Kategorie"
+
+#: Template/Books/add.ctp:23
+msgid "Add Book"
+msgstr "Buch hinzufügen"
+
+#: Template/Books/edit.ctp:28 Template/Books/view.ctp:11
+msgid "Edit Book"
+msgstr "Buch bearbeiten"
+
+#: Template/Books/index.ctp:22
+msgid "Books"
+msgstr "Bücher"
+
+#: Template/Books/index.ctp:55 Template/Books/rent.ctp:37
+msgid "Rent"
+msgstr "Miete"
+
+#: Template/Books/rent.ctp:23
+msgid "Rent this books?"
+msgstr "Mieten Sie diese Bücher?"
+
+#: Template/Books/rent.ctp:31
+msgid "Title"
+msgstr "Titel"
+
+#: Template/Books/rent.ctp:36
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: Template/Books/view.ctp:12
+msgid "Delete Book"
+msgstr "Buch löschen"
+
+#: Template/Books/view.ctp:63 Template/Categories/index.ctp:18
+msgid "Categories"
+msgstr "Kategorien"
+
+#: Template/Books/view.ctp:67
+msgid "Description"
+msgstr "Beschreibung"
+
+#: Template/Categories/add.ctp:18
+msgid "Add Category"
+msgstr "Kategorie hinzufügen"
+
+#: Template/Categories/edit.ctp:24 Template/Categories/view.ctp:11
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: Template/Categories/view.ctp:12
+msgid "Delete Category"
+msgstr "Kategorie löschen"
+
+#: Template/Categories/view.ctp:23
+msgid "Category's Books"
+msgstr "Bücher der Kategorie"
+
+#: Template/Layout/default.ctp:51
+msgid "Book list"
+msgstr "Bücherliste"
+
+#: Template/Layout/default.ctp:52
+msgid "Author list"
+msgstr "Autorenliste"
+
+#: Template/Layout/default.ctp:53
+msgid "Category list"
+msgstr "Kategorieliste"
+
+#: Template/Layout/default.ctp:56
+msgid "Resend Confirmation Mail"
+msgstr "Bestätigungsmail erneut senden"
+
+#: Template/Layout/default.ctp:72
+msgid "Account"
+msgstr "Konto"
+
+#: Template/Layout/default.ctp:75
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: Template/Layout/default.ctp:79 Template/Users/login.ctp:1
+msgid "Login"
+msgstr "Anmeldung"
+
+#: Template/Layout/default.ctp:80
+msgid "Register"
+msgstr "Registrieren"
+
+#: Template/Layout/error.ctp:35 Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "Error"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Zurück"
+
+#: Template/LibraryRules/add.ctp:10 Template/LibraryRules/edit.ctp:16
+#: Template/LibraryRules/view.ctp:12
+msgid "List Library Rules"
+msgstr "Bibliotheksregeln auflisten"
+
+#: Template/LibraryRules/add.ctp:16
+msgid "Add Library Rule"
+msgstr "Bibliotheksregel hinzufügen"
+
+#: Template/LibraryRules/edit.ctp:22 Template/LibraryRules/view.ctp:10
+msgid "Edit Library Rule"
+msgstr "Bibliotheksregel bearbeiten"
+
+#: Template/LibraryRules/index.ctp:10 Template/LibraryRules/view.ctp:13
+msgid "New Library Rule"
+msgstr "Neue Bibliotheksregel"
+
+#: Template/LibraryRules/index.ctp:14
+msgid "Library Rules"
+msgstr "Bibliotheksregeln"
+
+#: Template/LibraryRules/view.ctp:11
+msgid "Delete Library Rule"
+msgstr "Löschen der Bibliotheksregel"
+
+#: Template/LibraryRules/view.ctp:20 Template/Users/view.ctp:38;47
+msgid "Id"
+msgstr "Ich würde"
+
+#: Template/LibraryRules/view.ctp:24
+msgid "Overdue Daily Fine"
+msgstr "Überfällige Tagesgeldstrafe"
+
+#: Template/LibraryRules/view.ctp:28 Template/Users/view.ctp:54
+msgid "Created"
+msgstr "Erstellt"
+
+#: Template/LibraryRules/view.ctp:32 Template/Users/view.ctp:55
+msgid "Modified"
+msgstr "Geändert"
+
+#: Template/Loans/add.ctp:11 Template/Loans/edit.ctp:17
+#: Template/Loans/index.ctp:11 Template/Loans/view.ctp:15
+#: Template/Teachers/add.ctp:11 Template/Teachers/edit.ctp:16
+#: Template/Teachers/view.ctp:13 Template/Users/add.ctp:11
+#: Template/Users/edit.ctp:17 Template/Users/index.ctp:11
+#: Template/Users/view.ctp:14
+msgid "List Teachers"
+msgstr "Lehrer auflisten"
+
+#: Template/Loans/add.ctp:12 Template/Loans/edit.ctp:18
+#: Template/Loans/index.ctp:12 Template/Loans/view.ctp:16
+#: Template/Teachers/index.ctp:10 Template/Teachers/view.ctp:14
+#: Template/Users/add.ctp:12 Template/Users/edit.ctp:18
+#: Template/Users/index.ctp:12 Template/Users/view.ctp:15
+msgid "New Teacher"
+msgstr "Neuer Lehrer"
+
+#: Template/Loans/add.ctp:20
+msgid "Add Loan"
+msgstr "Darlehen hinzufügen"
+
+#: Template/Loans/edit.ctp:26 Template/Loans/view.ctp:11
+msgid "Edit Loan"
+msgstr "Darlehen bearbeiten"
+
+#: Template/Loans/index.ctp:18
+msgid "Loans"
+msgstr "Kredite"
+
+#: Template/Loans/view.ctp:12
+msgid "Delete Loan"
+msgstr "Darlehen löschen"
+
+#: Template/Loans/view.ctp:23
+msgid "Loan"
+msgstr "Darlehen"
+
+#: Template/Loans/view.ctp:26
+msgid "Teacher"
+msgstr "Lehrer"
+
+#: Template/Loans/view.ctp:30
+msgid "Book"
+msgstr "Buch"
+
+#: Template/Loans/view.ctp:34 Template/Teachers/view.ctp:61
+msgid "Amount Of Fine"
+msgstr "Menge an Geld"
+
+#: Template/Loans/view.ctp:38 Template/Teachers/view.ctp:58
+msgid "Date Issued"
+msgstr "Ausgabedatum"
+
+#: Template/Loans/view.ctp:42 Template/Teachers/view.ctp:59
+msgid "Date Due For Return"
+msgstr "Fälligkeitsdatum für die Rückgabe"
+
+#: Template/Loans/view.ctp:46 Template/Teachers/view.ctp:60
+msgid "Date Returned"
+msgstr "Datum zurückgegeben"
+
+#: Template/Teachers/add.ctp:12 Template/Teachers/edit.ctp:17
+#: Template/Teachers/index.ctp:11 Template/Teachers/view.ctp:15
+#: Template/Users/add.ctp:10 Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "Benutzer auflisten"
+
+#: Template/Teachers/add.ctp:13 Template/Teachers/edit.ctp:18
+#: Template/Teachers/index.ctp:12 Template/Teachers/view.ctp:16
+#: Template/Users/index.ctp:10 Template/Users/view.ctp:13
+msgid "New User"
+msgstr "Neuer Benutzer"
+
+#: Template/Teachers/add.ctp:22
+msgid "Add Teacher"
+msgstr "Lehrer hinzufügen"
+
+#: Template/Teachers/edit.ctp:26 Template/Teachers/view.ctp:11
+msgid "Edit Teacher"
+msgstr "Lehrer bearbeiten"
+
+#: Template/Teachers/index.ctp:18
+msgid "Teachers"
+msgstr "Lehrer"
+
+#: Template/Teachers/view.ctp:12
+msgid "Delete Teacher"
+msgstr "Lehrer löschen"
+
+#: Template/Teachers/view.ctp:30 Template/Users/view.ctp:49
+msgid "Last Name"
+msgstr "Familienname, Nachname"
+
+#: Template/Teachers/view.ctp:34 Template/Users/view.ctp:50
+msgid "Address"
+msgstr "Adresse"
+
+#: Template/Teachers/view.ctp:38 Template/Users/view.ctp:26;52
+msgid "Email"
+msgstr "Email"
+
+#: Template/Teachers/view.ctp:42 Template/Users/view.ctp:53
+msgid "Other Details"
+msgstr "Andere Details"
+
+#: Template/Teachers/view.ctp:47 Template/Users/view.ctp:51
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: Template/Teachers/view.ctp:54
+msgid "Related Loans"
+msgstr "Verbundene Kredite"
+
+#: Template/Users/add.ctp:18
+msgid "Add User"
+msgstr "Benutzer hinzufügen"
+
+#: Template/Users/edit.ctp:24 Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr "Benutzer bearbeiten"
+
+#: Template/Users/index.ctp:16
+msgid "Users"
+msgstr "Benutzer"
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr "Benutzer löschen"
+
+#: Template/Users/view.ctp:22
+msgid "Username"
+msgstr "Nutzername"
+
+#: Template/Users/view.ctp:30
+msgid "Password"
+msgstr "Passwort"
+
+#: Template/Users/view.ctp:34
+msgid "Type"
+msgstr "Art"
+
+#: Template/Users/view.ctp:43
+msgid "Related Teachers"
+msgstr "Verwandte Lehrer"
+
+#: Template/Users/view.ctp:56
+msgid "User Id"
+msgstr "Benutzeridentifikation"
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr "Die angeforderte Adresse {0} wurde auf diesem Server nicht gefunden."
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "Ein interner Fehler ist aufgetreten"
+
+#: Controller/Component/AuthComponent.php:500
+msgid "You are not authorized to access that location."
+msgstr "Sie sind nicht berechtigt, auf diesen Standort zuzugreifen."
+
+#: Controller/Component/CsrfComponent.php:162
+#: Http/Middleware/CsrfProtectionMiddleware.php:191
+msgid "Missing CSRF token cookie"
+msgstr "Fehlender CSRF-Token-Cookie"
+
+#: Controller/Component/CsrfComponent.php:166
+#: Http/Middleware/CsrfProtectionMiddleware.php:195
+msgid "CSRF token mismatch."
+msgstr "CSRF-Token-Mismatch."
+
+#: Error/ExceptionRenderer.php:262
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: Error/ExceptionRenderer.php:264
+msgid "An Internal Error Has Occurred."
+msgstr "Ein interner Fehler ist aufgetreten."
+
+#: Http/Response.php:2603
+msgid "The requested file contains `..` and will not be read."
+msgstr "Die angeforderte Datei enthält `..` und wird nicht gelesen."
+
+#: Http/Response.php:2624
+msgid "The requested file was not found"
+msgstr "Die angeforderte Datei wurde nicht gefunden"
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "{0, Zahl, Ganzzahl} Byte"
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr "{0} von jetzt an"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr "{0} vorher"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr "{0} danach"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr "{0} vorher"
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr "gerade jetzt"
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr "vor einer Sekunde"
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr "Vor ca. einer Minute"
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr "vor ungefähr einer Stunde"
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr "vor ungefähr einem Tag"
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr "Ungefähr vor einer Woche"
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr "vor ungefähr einem Monat"
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr "vor ungefähr einem Jahr"
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr "in etwa einer Sekunde"
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr "in etwa einer Minute"
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr "in ungefähr einer Stunde"
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr "in ungefähr einem Tag"
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr "in etwa einer Woche"
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr "in etwa einem Monat"
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr "in etwa einem Jahr"
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr "heute"
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} Jahr"
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} Monat"
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} Woche"
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} Tag"
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} Stunde"
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} Minute"
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} Sekunde"
+msgstr[1] ""
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr "Dieser Wert wird bereits verwende"
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr "Dieser Wert existiert nicht"
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:917
+msgid "and"
+msgstr "und"
+
+#: Validation/Validator.php:111
+msgid "This field is required"
+msgstr "Dieses Feld wird benötigt"
+
+#: Validation/Validator.php:112
+msgid "This field cannot be left empty"
+msgstr "Dieses Feld darf nicht leer sein"
+
+#: Validation/Validator.php:2054
+msgid "The provided value is invalid"
+msgstr "Der angegebene Wert ist ungültig"
+
+#: View/Helper/FormHelper.php:1099
+msgid "Edit {0}"
+msgstr "Bearbeiten {0}"
+
+#: View/Helper/FormHelper.php:1101
+msgid "New {0}"
+msgstr "Neu {0}"
+
+#: View/Helper/HtmlHelper.php:815
+msgid "Home"
+msgstr "Zuhause"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr "January"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr "Februar"
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr "März"
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr "April"
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr "Kann"
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr "Juni"
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr "Juli"
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr "August"
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr "September"
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr "Oktober"
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr "November"
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr "Dezember"

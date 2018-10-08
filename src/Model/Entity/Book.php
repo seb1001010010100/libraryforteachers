@@ -1,0 +1,40 @@
+<?php
+namespace App\Model\Entity;
+
+use Cake\ORM\Entity;
+
+/**
+ * Book Entity
+ *
+ * @property int $id
+ * @property string $book_title
+ * @property \Cake\I18n\FrozenDate $date_of_publication
+ * @property \Cake\I18n\FrozenDate $created
+ * @property \Cake\I18n\FrozenDate $modified
+ *
+ * @property \App\Model\Entity\Loan[] $loans
+ * @property \App\Model\Entity\Author[] $authors
+ * @property \App\Model\Entity\Category[] $categories
+ */
+class Book extends Entity
+{
+
+    /**
+     * Fields that can be mass assigned using newEntity() or patchEntity().
+     *
+     * Note that when '*' is set to true, this allows all unspecified fields to
+     * be mass assigned. For security purposes, it is advised to set '*' to false
+     * (or remove it), and explicitly make individual fields accessible as needed.
+     *
+     * @var array
+     */
+    protected $_accessible = [
+        'book_title' => true,
+        'date_of_publication' => true,
+        'created' => true,
+        'modified' => true,
+        'loans' => true,
+        'authors' => true,
+        'categories' => true
+    ];
+}
