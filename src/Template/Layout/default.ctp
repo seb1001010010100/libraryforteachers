@@ -29,6 +29,14 @@ $cakeDescription = "library for teacher";
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('style.css') ?>
 
+    <?php if($this->Session->read("Auth.User.type") == 'teacher'){?>
+
+      <?=   $this->Html->css('teachers.css') ?>
+
+    <?php   } ?>
+
+
+
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>

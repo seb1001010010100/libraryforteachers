@@ -1,0 +1,12 @@
+.content{
+
+  margin:auto;
+  float: none;
+
+}
+
+.content, #actions-sidebar{
+
+  padding-bottom: 1px;
+
+}

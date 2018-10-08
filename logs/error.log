@@ -20419,3 +20419,41 @@ Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
 
 
 
+2018-10-08 18:22:51 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\src\Template\Layout\default.ctp, line 37]
+Request URL: /apropos
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-10-08 18:22:51 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '}' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\src\Template\Layout\default.ctp on line 37
+Request URL: /apropos
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Program File...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-08 18:29:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\src\Template\Layout\default.ctp, line 32]
+Request URL: /
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/categories
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-10-08 18:29:17 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF) in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\src\Template\Layout\default.ctp on line 32
+Request URL: /
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/categories
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Program File...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
