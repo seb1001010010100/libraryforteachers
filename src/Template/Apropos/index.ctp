@@ -18,9 +18,10 @@
     <h3><?= __('A Propos') ?></h3>
     <p>Nom : Sebastien Hamel </br>
       Le titre du cours: 420-5b7 MO Applications internet. Automne 2018, Collège Montmorency. </br>
+      <?= $this->Html->link(__('Adrese GitHub'), 'https://github.com/seb1001010010100/libraryforteachers'); ?></br>
       Description : Ce site est une librairie pour professeur.</br>
       Le professeur peu ce connecter, voir la liste des livres disponible ou non, louer des livres, voir ses prèt, voir la liste des auteurs et categories de livres.</br>
       Un visiteur peu seulement voir la liste des livres, s'inscrire, voir la page a propos, et se connecter. </br>
       L'admin a le droit de tout faire. Email : admin@admin.com MDP: z </br></p>
       <td><?= $this->Html->image('library_for_teachers_dezign.gif'); ?></td></br>
-      <?= $this->Html->link(__('Lien vers le model'), 'http://www.databaseanswers.org/data_models/library_for_teachers/index.htm');
+      <?= $this->Html->link(__('Lien vers le model'), 'http://www.databaseanswers.org/data_models/library_for_teachers/index.htm'); ?>
