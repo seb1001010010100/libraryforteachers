@@ -197,6 +197,25 @@ class BooksController extends AppController
         $this->Flash->error(__('The loan could not be saved. Please, try again.'));
       }
     }
+
+    public function findTitles() {
+
+      if ($this->request->is('ajax')) {
+
+          $this->autoRender = false;
+          $name = $this->request->query['term'];
+          $results = $this->Books->find('all', array(
+              'conditions' => array('Books.book_title LIKE ' => '%' . $name . '%')
+          ));
+
+          $resultArr = array();
+          foreach ($results as $result) {
+              $resultArr[] = array('label' => $result['book_title'], 'value' => $result['book_title']);
+          }
+          echo json_encode($resultArr);
+      }
+    }
+
     public function isAuthorized($user)
     {
 

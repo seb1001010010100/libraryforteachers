@@ -34,12 +34,16 @@ $cakeDescription = "library for teacher";
       <?=   $this->Html->css('teachers.css') ?>
 
     <?php   } ?>
-
-
+    <?php
+        echo $this->Html->script('https://code.jquery.com/jquery-1.12.4.js');
+        echo $this->Html->script('https://code.jquery.com/ui/1.12.1/jquery-ui.js');
+        echo $this->Html->css('https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
+    ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">

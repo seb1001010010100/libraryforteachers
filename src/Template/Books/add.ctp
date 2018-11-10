@@ -1,3 +1,8 @@
+
+<?php use Cake\Routing\Router; ?>
+
+
+
 <?php
 /**
  * @var \App\View\AppView $this
@@ -22,7 +27,7 @@
     <fieldset>
         <legend><?= __('Add Book') ?></legend>
         <?php
-            echo $this->Form->control('book_title');
+            echo $this->Form->input('book_title', ['type' => 'text']);
             echo $this->Form->control('date_of_publication');
             echo $this->Form->control('authors._ids', ['options' => $authors]);
             echo $this->Form->control('categories._ids', ['options' => $categories]);
@@ -32,3 +37,9 @@
     <?= $this->Form->button(__('Submit')) ?>
     <?= $this->Form->end() ?>
 </div>
+<script>
+    jQuery('#book-title').autocomplete({
+        source:'<?php echo Router::url(array('controller' => 'Books', 'action' => 'findTitles')); ?>',
+        minLength: 1
+    });
+</script>

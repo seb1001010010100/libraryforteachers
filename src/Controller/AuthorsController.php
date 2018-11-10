@@ -107,6 +107,8 @@ class AuthorsController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 
+
+
     public function isAuthorized($user)
     {
 
@@ -117,7 +119,7 @@ class AuthorsController extends AppController
           if(in_array($action, ['view', 'index'])){
 
             return true;
-            
+
           }
           return false;
           break;
