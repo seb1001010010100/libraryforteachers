@@ -93,7 +93,9 @@ class BooksController extends AppController
         }
         $authors = $this->Books->Authors->find('list', ['limit' => 200]);
         $categories = $this->Books->Categories->find('list', ['limit' => 200]);
-        $this->set(compact('book', 'authors', 'categories'));
+        $mediums = $this->Books->Mediums->find('list', ['limit' => 200]);
+        $types = $this->Books->Types->find('list', ['limit' => 200]);
+        $this->set(compact('book', 'authors', 'categories','mediums','types'));
     }
 
     /**
@@ -198,19 +200,19 @@ class BooksController extends AppController
       }
     }
 
-    public function findTitles() {
+    public function findTags() {
 
       if ($this->request->is('ajax')) {
 
           $this->autoRender = false;
           $name = $this->request->query['term'];
           $results = $this->Books->find('all', array(
-              'conditions' => array('Books.book_title LIKE ' => '%' . $name . '%')
+              'conditions' => array('Books.tag LIKE ' => '%' . $name . '%')
           ));
 
           $resultArr = array();
           foreach ($results as $result) {
-              $resultArr[] = array('label' => $result['book_title'], 'value' => $result['book_title']);
+              $resultArr[] = array('label' => $result['tag'], 'value' => $result['tag']);
           }
           echo json_encode($resultArr);
       }

@@ -45,6 +45,7 @@ use Cake\Routing\Route\DashedRoute;
  *
  */
 Router::defaultRouteClass(DashedRoute::class);
+Router::extensions(['json', 'xml']);
 
 Router::scope('/', function (RouteBuilder $routes) {
     /**
@@ -52,6 +53,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      * Requires middleware to be registered via `Application::routes()` with `registerMiddleware()`
      */
     $routes->resources('Authors');
+
 
     /**
      * Here, we are connecting '/' (base path) to a controller called 'Pages',

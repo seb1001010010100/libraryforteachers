@@ -43,6 +43,12 @@ class BooksTable extends Table
 
         $this->addBehavior('Timestamp');
 
+        $this->hasMany('Mediums', [
+            'foreignKey' => 'medium_id'
+        ]);
+        $this->hasMany('Types', [
+            'foreignKey' => 'type_id'
+        ]);
         $this->hasMany('Loans', [
             'foreignKey' => 'book_id'
         ]);
