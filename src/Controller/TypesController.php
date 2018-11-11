@@ -109,4 +109,14 @@ class TypesController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+    public function getByMedium() {
+        $medium_id = $this->request->query('medium_id');
+
+        $types = $this->Types->find('all', [
+            'conditions' => ['types.medium_id' => $medium_id],
+        ]);
+        $this->set('types', $types);
+        $this->set('_serialize', ['types']);
+    }
 }

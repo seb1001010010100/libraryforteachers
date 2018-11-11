@@ -1,6 +1,14 @@
 
 <?php use Cake\Routing\Router; ?>
-
+<?php
+$urlToLinkedListFilter = $this->Url->build([
+    "controller" => "Types",
+    "action" => "getByMedium",
+    "_ext" => "json"
+        ]);
+echo $this->Html->scriptBlock('var urlToLinkedListFilter = "' . $urlToLinkedListFilter . '";', ['block' => true]);
+echo $this->Html->script('Books/add');
+?>
 
 
 <?php
@@ -34,7 +42,7 @@
             echo $this->Form->control('authors._ids', ['options' => $authors]);
             echo $this->Form->control('categories._ids', ['options' => $categories]);
             echo $this->Form->input('file', ['type' => 'file', 'class' => 'form-control']);
-            echo $this->Form->input('tag', ['type' => 'text'])
+            echo $this->Form->input('Tag', ['type' => 'text'])
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
@@ -45,4 +53,5 @@
         source:'<?php echo Router::url(array('controller' => 'Books', 'action' => 'findTags')); ?>',
         minLength: 1
     });
+
 </script>

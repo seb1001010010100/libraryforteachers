@@ -1,4 +1,13 @@
 <?php use Cake\Routing\Router; ?>
+<?php
+$urlToLinkedListFilter = $this->Url->build([
+    "controller" => "Types",
+    "action" => "getByMedium",
+    "_ext" => "json"
+        ]);
+echo $this->Html->scriptBlock('var urlToLinkedListFilter = "' . $urlToLinkedListFilter . '";', ['block' => true]);
+echo $this->Html->script('Books/add');
+?>
 
 <?php
 /**
@@ -29,12 +38,15 @@
     <fieldset>
         <legend><?= __('Edit Book') ?></legend>
         <?php
+            echo $this->Form->control('medium_id', ['options' => $mediums]);
+            echo $this->Form->control('type_id', ['options' => $types]);
             echo $this->Form->input('book_title', ['type' => 'text']);
             echo $this->Form->control('date_of_publication');
             echo $this->Form->control('authors._ids', ['options' => $authors]);
             echo $this->Form->control('categories._ids', ['options' => $categories]);
             echo $this->Html->image($book->image, array('height' => '128', 'width' => '128'));
             echo $this->Form->input('file', ['type' => 'file', 'class' => 'form-control']);
+            echo $this->Form->input('Tag', ['type' => 'text'])
 
         ?>
     </fieldset>
@@ -42,8 +54,9 @@
     <?= $this->Form->end() ?>
 </div>
 <script>
-    jQuery('#book-title').autocomplete({
-        source:'<?php echo Router::url(array('controller' => 'Books', 'action' => 'findTitles')); ?>',
+    jQuery('#tag').autocomplete({
+        source:'<?php echo Router::url(array('controller' => 'Books', 'action' => 'findTags')); ?>',
         minLength: 1
     });
+
 </script>

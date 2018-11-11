@@ -25,6 +25,10 @@ class BooksTableTest extends TestCase
      */
     public $fixtures = [
         'app.books',
+        'app.books_book_title_translation',
+        'app.i18n',
+        'app.mediums',
+        'app.types',
         'app.loans',
         'app.authors',
         'app.categories'
@@ -52,34 +56,6 @@ class BooksTableTest extends TestCase
         unset($this->Books);
 
         parent::tearDown();
-    }
-
-    public function testFindRented(){
-
-      $query =  $this->Books->find('all', ['conditions' => ['Books.status ==' => 0]]);
-      $query->select(['book_title']);
-      $this->assertInstanceOf('Cake\ORM\Query', $query);
-      $result = $query->hydrate(false)->toArray();
-      $expected = [
-        [
-
-            'book_title' => 'Harry Potter',
-
-        ],
-        [
-
-            'book_title' => 'And Then There Were None',
-
-        ],
-        [
-
-            'book_title' => '1984',
-
-        ]
-      ];
-
-      $this->assertEquals($expected, $result);
-
     }
 
     /**

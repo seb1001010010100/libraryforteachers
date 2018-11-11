@@ -9,6 +9,8 @@ use Cake\Validation\Validator;
 /**
  * Books Model
  *
+ * @property |\Cake\ORM\Association\BelongsTo $Media
+ * @property \App\Model\Table\TypesTable|\Cake\ORM\Association\BelongsTo $Types
  * @property \App\Model\Table\LoansTable|\Cake\ORM\Association\HasMany $Loans
  * @property \App\Model\Table\AuthorsTable|\Cake\ORM\Association\BelongsToMany $Authors
  * @property \App\Model\Table\CategoriesTable|\Cake\ORM\Association\BelongsToMany $Categories
@@ -36,18 +38,20 @@ class BooksTable extends Table
     public function initialize(array $config)
     {
         parent::initialize($config);
-        $this->addBehavior('Translate', ['fields' => ['book_title']]);
+
         $this->setTable('books');
         $this->setDisplayField('book_title');
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
 
-        $this->hasMany('Mediums', [
-            'foreignKey' => 'medium_id'
+        $this->belongsTo('Mediums', [
+            'foreignKey' => 'medium_id',
+            'joinType' => 'INNER'
         ]);
-        $this->hasMany('Types', [
-            'foreignKey' => 'type_id'
+        $this->belongsTo('Types', [
+            'foreignKey' => 'type_id',
+            'joinType' => 'INNER'
         ]);
         $this->hasMany('Loans', [
             'foreignKey' => 'book_id'
@@ -78,7 +82,6 @@ class BooksTable extends Table
 
         $validator
             ->scalar('book_title')
-            ->maxLength('book_title', 255)
             ->requirePresence('book_title', 'create')
             ->notEmpty('book_title');
 
@@ -87,6 +90,31 @@ class BooksTable extends Table
             ->requirePresence('date_of_publication', 'create')
             ->notEmpty('date_of_publication');
 
+        $validator
+            ->scalar('image')
+            ->allowEmpty('image');
+
+
+        $validator
+            ->scalar('Tag')
+            ->requirePresence('Tag', 'create')
+            ->notEmpty('Tag');
+
         return $validator;
+    }
+
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
+    public function buildRules(RulesChecker $rules)
+    {
+        $rules->add($rules->existsIn(['medium_id'], 'Mediums'));
+        $rules->add($rules->existsIn(['type_id'], 'Types'));
+
+        return $rules;
     }
 }
