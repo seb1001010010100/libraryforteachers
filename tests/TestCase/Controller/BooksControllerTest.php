@@ -1,6 +1,7 @@
 <?php
 namespace App\Test\TestCase\Controller;
 
+use Cake\ORM\TableRegistry;
 use App\Controller\BooksController;
 use Cake\TestSuite\IntegrationTestCase;
 
@@ -29,29 +30,72 @@ class BooksControllerTest extends IntegrationTestCase
      *
      * @return void
      */
+
     public function testIndex()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+
+      $this->get('/Books');
+
+      $this->assertResponseOk();
+
     }
+
 
     /**
      * Test view method
      *
      * @return void
      */
-    public function testView()
+    public function testViewAuthenticated()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+      $this->session([
+        'Auth' => [
+            'User' => [
+                'id' => 1,
+                'type' => 'admin'
+                // autres clés.
+            ]
+        ]
+      ]);
+      $this->get('/Books/view/1');
+
+      $this->assertResponseOk();
     }
+
+    public function testViewUnauthenticated(){
+
+        $this->get('/Books/view/1');
+        $this->assertRedirect('/login?redirect=%2FBooks%2Fview%2F1');
+
+    }
+
 
     /**
      * Test add method
      *
      * @return void
      */
-    public function testAdd()
+    public function testAddAuthenticated()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+      $this->session([
+        'Auth' => [
+            'User' => [
+                'id' => 1,
+                'type' => 'admin'
+                // autres clés.
+            ]
+        ]
+      ]);
+      $this->get('/Books/add');
+
+      $this->assertResponseOk();
+    }
+
+    public function testAddUnauthenticated(){
+
+        $this->get('/Books/add');
+        $this->assertRedirect('/login?redirect=%2FBooks%2Fadd');
+
     }
 
     /**
@@ -59,9 +103,28 @@ class BooksControllerTest extends IntegrationTestCase
      *
      * @return void
      */
-    public function testEdit()
+    public function testEditAuthenticated()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+      $this->session([
+        'Auth' => [
+            'User' => [
+                'id' => 1,
+                'type' => 'admin'
+                // autres clés.
+            ]
+        ]
+      ]);
+      $this->get('/Books/edit/1');
+
+      $this->assertResponseOk();
+    }
+
+    public function testEditUnauthenticated()
+    {
+
+      $this->get('/Books/edit/1');
+      $this->assertRedirect('/login?redirect=%2FBooks%2Fedit%2F1');
+
     }
 
     /**
@@ -69,8 +132,15 @@ class BooksControllerTest extends IntegrationTestCase
      *
      * @return void
      */
-    public function testDelete()
+
+
+    public function testDeleteUnauthenticated()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+
+      $this->get('/Books/delete/1');
+      $this->assertRedirect('/login?redirect=%2FBooks%2Fdelete%2F1');
+
     }
+
+
 }
