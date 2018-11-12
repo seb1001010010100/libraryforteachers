@@ -2665,3 +2665,362 @@ Stack Trace:
 #7 {main}
 
 
+2018-11-12 05:21:13 Warning: The connection is going to be closed but there is an active transaction.
+2018-11-12 05:22:58 Error: Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:22:58 Warning: Warning (512): Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 259
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 05:22:58 Error: Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:22:58 Warning: Warning (512): Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 259
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 05:22:59 Error: [Cake\Database\Exception] Cannot describe mediums. It has 0 columns.
+Request URL: /Books/add
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('mediums', Array)
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('mediums')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\MediumsTable))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\MediumsTable))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Association.php(1079): Cake\ORM\Table->find('list', Array)
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\src\Controller\BooksController.php(96): Cake\ORM\Association->find('list', Array)
+#8 [internal function]: App\Controller\BooksController->add()
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(63): call_user_func_array(Array, Array)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\AppController->invokeAction()
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\BooksController))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php(152): Cake\Http\Server->run(Object(Cake\Http\ServerRequest))
+#23 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestCase.php(495): Cake\TestSuite\MiddlewareDispatcher->execute(Array)
+#24 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestCase.php(375): Cake\TestSuite\IntegrationTestCase->_sendRequest('/Books/add', 'GET')
+#25 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\BooksControllerTest.php(89): Cake\TestSuite\IntegrationTestCase->get('/Books/add')
+#26 [internal function]: App\Test\TestCase\Controller\BooksControllerTest->testAddAuthenticated()
+#27 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(1062): ReflectionMethod->invokeArgs(Object(App\Test\TestCase\Controller\BooksControllerTest), Array)
+#28 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(913): PHPUnit_Framework_TestCase->runTest()
+#29 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(686): PHPUnit_Framework_TestCase->runBare()
+#30 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Controller\BooksControllerTest))
+#31 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#32 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#33 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#34 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#35 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#36 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#37 {main}
+
+
+2018-11-12 05:22:59 Error: [Cake\Database\Exception] Cannot describe mediums. It has 0 columns.
+Request URL: /Books/edit/1
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('mediums', Array)
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('mediums')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Query.php(271): Cake\ORM\Table->getSchema()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\MediumsTable))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Table.php(1758): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\MediumsTable))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Table.php(1350): Cake\ORM\Table->query()
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\ORM\Association.php(1079): Cake\ORM\Table->find('list', Array)
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\src\Controller\BooksController.php(146): Cake\ORM\Association->find('list', Array)
+#8 [internal function]: App\Controller\BooksController->edit('1')
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(63): call_user_func_array(Array, Array)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\AppController->invokeAction()
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\BooksController))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\MiddlewareDispatcher.php(152): Cake\Http\Server->run(Object(Cake\Http\ServerRequest))
+#23 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestCase.php(495): Cake\TestSuite\MiddlewareDispatcher->execute(Array)
+#24 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\IntegrationTestCase.php(375): Cake\TestSuite\IntegrationTestCase->_sendRequest('/Books/edit/1', 'GET')
+#25 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\BooksControllerTest.php(117): Cake\TestSuite\IntegrationTestCase->get('/Books/edit/1')
+#26 [internal function]: App\Test\TestCase\Controller\BooksControllerTest->testEditAuthenticated()
+#27 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(1062): ReflectionMethod->invokeArgs(Object(App\Test\TestCase\Controller\BooksControllerTest), Array)
+#28 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(913): PHPUnit_Framework_TestCase->runTest()
+#29 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(686): PHPUnit_Framework_TestCase->runBare()
+#30 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Controller\BooksControllerTest))
+#31 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#32 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#33 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#34 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#35 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#36 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#37 {main}
+
+
+2018-11-12 05:23:00 Error: [UnexpectedValueException] Referenced fixture class "App\Test\Fixture\MediaFixture" not found. Fixture "app.media" was referenced in test case "App\Test\TestCase\Controller\TypesControllerTest". in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php on line 228
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php(103): Cake\TestSuite\Fixture\FixtureManager->_loadFixtures(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureInjector.php(97): Cake\TestSuite\Fixture\FixtureManager->fixturize(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(386): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(628): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#11 {main}
+
+
+2018-11-12 05:25:02 Error: Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:25:02 Warning: Warning (512): Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 257
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 05:25:02 Error: Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:25:02 Warning: Warning (512): Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 257
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 05:25:08 Error: [UnexpectedValueException] Referenced fixture class "App\Test\Fixture\MediaFixture" not found. Fixture "app.media" was referenced in test case "App\Test\TestCase\Controller\TypesControllerTest". in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php on line 228
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php(103): Cake\TestSuite\Fixture\FixtureManager->_loadFixtures(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureInjector.php(97): Cake\TestSuite\Fixture\FixtureManager->fixturize(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(386): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(628): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Controller\TypesControllerTest))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#11 {main}
+
+
+2018-11-12 05:26:00 Error: Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:26:00 Warning: Warning (512): Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 257
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 05:26:00 Error: Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:26:00 Warning: Warning (512): Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 257
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 05:26:07 Error: [UnexpectedValueException] Referenced fixture class "App\Test\Fixture\MediaFixture" not found. Fixture "app.media" was referenced in test case "App\Test\TestCase\Model\Table\TypesTableTest". in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php on line 228
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php(103): Cake\TestSuite\Fixture\FixtureManager->_loadFixtures(Object(App\Test\TestCase\Model\Table\TypesTableTest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureInjector.php(97): Cake\TestSuite\Fixture\FixtureManager->fixturize(Object(App\Test\TestCase\Model\Table\TypesTableTest))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(386): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Model\Table\TypesTableTest))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(628): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Model\Table\TypesTableTest))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Model\Table\TypesTableTest))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#11 {main}
+
+
+2018-11-12 05:26:28 Error: Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:26:28 Warning: Warning (512): Fixture creation for "books_categories" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 257
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 05:26:29 Error: Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists"
+2018-11-12 05:26:29 Warning: Warning (512): Fixture creation for "loans" failed "SQLSTATE[HY000]: General error: 1 index book_id already exists" in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\TestFixture.php, line 313]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\TestSuite\Fixture\TestFixture::create() - CORE\src\TestSuite\Fixture\TestFixture.php, line 313
+Cake\TestSuite\Fixture\FixtureManager::_setupTable() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 257
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 311
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 378
+Cake\Database\Connection::Cake\Database\{closure}() - CORE\src\Database\Connection.php, line 775
+Cake\Core\Retry\CommandRetry::run() - CORE\src\Core\Retry\CommandRetry.php, line 68
+Cake\Database\Connection::disableConstraints() - CORE\src\Database\Connection.php, line 784
+Cake\TestSuite\Fixture\FixtureManager::Cake\TestSuite\Fixture\{closure}() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 379
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 726
+Cake\TestSuite\Fixture\FixtureManager::_runOperation() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 380
+Cake\TestSuite\Fixture\FixtureManager::load() - CORE\src\TestSuite\Fixture\FixtureManager.php, line 331
+Cake\TestSuite\Fixture\FixtureInjector::startTest() - CORE\src\TestSuite\Fixture\FixtureInjector.php, line 98
+PHPUnit_Framework_TestResult::startTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 386
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 628
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+

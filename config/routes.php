@@ -46,7 +46,8 @@ Router::extensions(['pdf']);
  * constructor in your `src/Application.php` file to change this behavior.
  *
 */
-
+Router::defaultRouteClass(DashedRoute::class);
+Router::extensions(['json', 'xml']);
 Router::prefix('api', function ($routes) {
     $routes->extensions(['json', 'xml']);
     $routes->resources('Authors');

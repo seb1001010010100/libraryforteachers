@@ -25,7 +25,6 @@ class TypesTableTest extends TestCase
      */
     public $fixtures = [
         'app.types',
-        'app.media',
         'app.books'
     ];
 

@@ -82,17 +82,27 @@ class UsersTableTest extends TestCase
         $this->markTestIncomplete('Not implemented yet.');
     }
 
+  public function testSaving() {
+      $data = ['username' => 'test', 'email' => '', 'password' => 'test', 'type' => 'teacher'];
+      $email = $this->Users->newEntity($data);
+      $resultingError = $this->Users->validator()->errors($data);
+      $expectedError = [
+        'email' => [
+          '_empty' => 'Ce champ ne peu pas être laissé vide'
+        ]
+      ];
+      $this->assertEquals($expectedError, $resultingError);
+    }
     public function testAddXss(){
 
-      $user = $this->Users->newEntity();
-      $user->username = '<script>alert(document.cookie)</script>';
-      $user->email = 't@test.com';
-      $user->password = 'test';
-      $user->type = 'teacher';
+      $data = ['username' => 'asd', 'email' => 'asd@hotmail.com', 'password' => 'test', 'type' => '<script>alert("hi")</script>'];
+      $user = $this->Users->newEntity($data);
       $this->Users->save($user);
+      $newTotal = $this->Users->find()->count();
+      $this->assertEquals(2, $newTotal);
 
-      $query = $this->Users->find()->where(['email' => $user['email']]);
-      $this->assertEquals('<script>alert(document.cookie)</script>', $query->username);
+      $result = $this->Users->find()->where(['id' => 2])->first();
+      $this->assertEquals('&lt;script&gt;alert(&quot;hi&quot;)&lt;/script&gt;', $result->type);
 
     }
 }

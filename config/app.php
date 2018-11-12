@@ -300,23 +300,23 @@ return [
         /**
          * The test connection is used during the test suite.
          */
-        'test' => [
-            'className' => 'Cake\Database\Connection',
-            'driver' => 'Cake\Database\Driver\Sqlite',
-            'persistent' => false,
-            'host' => '',
-            //'port' => 'non_standard_port_number',
-            'username' => '',
-            'password' => '',
-            'database' => ROOT . DS . 'sqlite' . DS . 'test.sqlite',
-            //'encoding' => 'utf8mb4',
-            'timezone' => 'UTC',
-            'cacheMetadata' => true,
-            'quoteIdentifiers' => false,
-            'log' => false,
-            //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
-            'url' => env('DATABASE_TEST_URL', null),
-        ],
+         'test' => [
+             'className' => 'Cake\Database\Connection',
+             'driver' => 'Cake\Database\Driver\Sqlite',
+             'persistent' => false,
+             'host' => '',
+             //'port' => 'non_standard_port_number',
+             'username' => '',
+             'password' => '',
+             'database' => ROOT . DS . 'sqlite' . DS . 'test.sqlite',
+             //'encoding' => 'utf8mb4',
+             'timezone' => 'UTC',
+             'cacheMetadata' => true,
+             'quoteIdentifiers' => false,
+             'log' => false,
+             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
+             'url' => env('DATABASE_TEST_URL', null),
+         ],
     ],
 
     /**

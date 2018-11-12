@@ -22,7 +22,18 @@
       Description : Ce site est une librairie pour professeur.</br>
       Le professeur peu ce connecter, voir la liste des livres disponible ou non, louer des livres, voir ses prèt, voir la liste des auteurs et categories de livres.</br>
       Un visiteur peu seulement voir la liste des livres, s'inscrire, voir la page a propos, et se connecter. </br>
-      L'admin a le droit de tout faire. Email : admin@admin.com MDP: z </br>
-      **Note: La table i18n pour la translation de la base de donnée marche avec MySql, mais pas avec Sqlite.</p></br>
+      L'admin a le droit de tout faire. Email : admin@admin.com MDP: z </br></br>
+      Les liste lier est dans l'add et l'edit d'un livre (medium et type)</br>
+      L'autocomplete est dans l'add et l'edit d'un livre (tag)</br>
+      Les tests pour le champ boolean est dans le BooksTableTest</br>
+      Le test des contraintes est dans le BooksControllerTest</br>
+      Le test xss ne fonctionne pas, cake ne filtre pas le data (UsersTableTest).</br>
+      Le test de validation est dans le usersTableTest (testSaving).</br>
+      Le lien pour le  <a href="http://localhost/libraryforteachers/webroot/coverage/index.html">coverage</a></br>
+      La monopage est dans <a href="http://localhost/libraryforteachers/authors">l'index des auteurs </a></br>
+      La version <a href="http://localhost/libraryforteachers/admin/authors"> admin </a> </br>
+
+
+      </p>
       <?= $this->Html->link(__('Lien vers le model original'), 'http://www.databaseanswers.org/data_models/library_for_teachers/index.htm'); ?></br>
       <td><?= $this->Html->image('library_for_teachers_dezign.png'); ?></td></br>
