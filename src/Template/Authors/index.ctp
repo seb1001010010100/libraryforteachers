@@ -1,13 +1,9 @@
 <?php
-$urlToRestApi = $this->Url->build('/src/Controller/api/AuthorsController.php', true);
+$urlToRestApi = $this->Url->build('/api/authors', true);
 echo $this->Html->scriptBlock('var urlToRestApi = "' . $urlToRestApi . '";', ['block' => true]);
-echo $this->Html->script('Authors/index', ['block' => 'scriptBottom']);
+echo $this->Html->script('Authors/index');
 ?>
 <html>
-    <head>
-        <script src="js/Authors/index.js"></script>
-        <title>Crud PHP Ajax Example</title>
-    </head>
     <div class="container">
         <div class="row">
             <div class="panel panel-default authors-content">

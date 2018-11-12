@@ -2524,3 +2524,144 @@ PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.
 
 
 
+2018-11-11 23:23:49 Error: [ParseError] syntax error, unexpected ']', expecting ',' or ')' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php on line 63
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+
+2018-11-11 23:23:55 Error: [ParseError] syntax error, unexpected ']', expecting ',' or ')' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php on line 63
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+
+2018-11-11 23:25:00 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php on line 63
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+
+2018-11-11 23:25:09 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php on line 63
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+
+2018-11-11 23:27:10 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php on line 63
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+
+2018-11-11 23:36:54 Error: [UnexpectedValueException] Referenced fixture class "App\Test\Fixture\BooksBookTitleTranslationFixture" not found. Fixture "app.books_book_title_translation" was referenced in test case "App\Test\TestCase\Model\Table\BooksTableTest". in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php on line 228
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php(103): Cake\TestSuite\Fixture\FixtureManager->_loadFixtures(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureInjector.php(97): Cake\TestSuite\Fixture\FixtureManager->fixturize(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(386): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(628): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#10 {main}
+
+
+2018-11-11 23:40:03 Error: [UnexpectedValueException] Referenced fixture class "App\Test\Fixture\BooksBookTitleTranslationFixture" not found. Fixture "app.books_book_title_translation" was referenced in test case "App\Test\TestCase\Model\Table\BooksTableTest". in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php on line 228
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php(103): Cake\TestSuite\Fixture\FixtureManager->_loadFixtures(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureInjector.php(97): Cake\TestSuite\Fixture\FixtureManager->fixturize(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(386): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(628): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#10 {main}
+
+
+2018-11-11 23:40:22 Error: [UnexpectedValueException] Referenced fixture class "App\Test\Fixture\I18nFixture" not found. Fixture "app.i18n" was referenced in test case "App\Test\TestCase\Model\Table\BooksTableTest". in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php on line 228
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureManager.php(103): Cake\TestSuite\Fixture\FixtureManager->_loadFixtures(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\TestSuite\Fixture\FixtureInjector.php(97): Cake\TestSuite\Fixture\FixtureManager->fixturize(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(386): Cake\TestSuite\Fixture\FixtureInjector->startTest(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestResult.php(628): PHPUnit_Framework_TestResult->startTest(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestCase.php(868): PHPUnit_Framework_TestResult->run(Object(App\Test\TestCase\Model\Table\BooksTableTest))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Framework\TestSuite.php(733): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(517): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(186): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array, true)
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#10 {main}
+
+
+2018-11-11 23:48:03 Error: [ParseError] syntax error, unexpected ''book_title'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\BooksTableTest.php on line 88
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+
+2018-11-12 00:05:15 Error: [ParseError] syntax error, unexpected ';' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php on line 92
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+
+2018-11-12 00:05:28 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')' in C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php on line 92
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Util\Fileloader.php(36): PHPUnit_Util_Fileloader::load('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\StandardTestSuiteLoader.php(37): PHPUnit_Util_Fileloader::checkAndLoad('tests/TestCase/...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(122): PHPUnit_Runner_StandardTestSuiteLoader->load('tests/TestCase/...', 'tests/TestCase/...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\Runner\BaseTestRunner.php(65): PHPUnit_Runner_BaseTestRunner->loadSuiteClass('tests/TestCase/...', '')
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(138): PHPUnit_Runner_BaseTestRunner->getTest('tests/TestCase/...', '', Array)
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\src\TextUI\Command.php(116): PHPUnit_TextUI_Command->run(Array, true)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\phpunit\phpunit\phpunit(52): PHPUnit_TextUI_Command::main()
+#7 {main}
+
+

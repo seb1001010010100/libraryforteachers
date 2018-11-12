@@ -14,7 +14,7 @@ function getAuthors() {
                                 '<a href="javascript:void(0);" class="glyphicon glyphicon-edit" onclick="editAuthor(' + value.id + ')"></a>' +
                                 '<a href="javascript:void(0);" class="glyphicon glyphicon-trash" onclick="return confirm(\'Are you sure to delete data?\') ? authorAction(\'delete\', ' + value.id + ') : false;"></a>' +
                                 '</td></tr>';
-                        authorTable.append('<tr><td>' + count + '</td><td>' + value.name + '</td><td>' + value.description + editDeleteButtons);
+                        authorTable.append('<tr><td>' + count + '</td><td>' + value.surname + '</td><td>' + value.first_name + editDeleteButtons);
                         count++;
                     });
 
@@ -87,8 +87,8 @@ function editAuthor(id) {
         url: urlToRestApi+ "/" + id,
         success: function (data) {
             $('#idEdit').val(data.data.id);
-            $('#nameEdit').val(data.data.name);
-            $('#descriptionEdit').val(data.data.description);
+            $('#surnameEdit').val(data.data.surname);
+            $('#first_nameEdit').val(data.data.first_name);
             $('#editForm').slideDown();
         }
     });

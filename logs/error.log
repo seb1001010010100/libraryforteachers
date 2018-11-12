@@ -28461,3 +28461,564 @@ Stack Trace:
 #15 {main}
 
 
+2018-11-12 00:07:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Src could not be found.
+Exception Attributes: array (
+  'class' => 'Src',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /src/Controller/api/AuthorsController.php
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-11-12 00:19:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Api could not be found.
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /api/AuthorsController.php
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-11-12 00:23:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Api could not be found.
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /api/AuthorsController.php
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-11-12 00:24:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Api could not be found.
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /api/AuthorsController.php
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-11-12 00:25:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Api could not be found.
+Exception Attributes: array (
+  'class' => 'Api',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /api/AuthorsController.php
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-11-12 00:31:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class AuthorsController.php could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorsController.php',
+  'plugin' => false,
+  'prefix' => 'api',
+  '_ext' => false,
+)
+Request URL: /api/AuthorsController.php
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2018-11-12 00:48:26 Error: [Cake\View\Exception\MissingTemplateException] Template file "Api\Authors\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Api\\Authors\\index.ctp',
+)
+Request URL: /api/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(799): Cake\View\View->_getViewFileName('Api\\Authors\\ind...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render('index', NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(262): Cake\Controller\Controller->render('index')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(68): Crud\Controller\Component\CrudComponent->execute()
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\Api\AppController->invokeAction()
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\AuthorsController))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+
+
+2018-11-12 00:48:45 Error: [Cake\View\Exception\MissingTemplateException] Template file "Api\Authors\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Api\\Authors\\index.ctp',
+)
+Request URL: /api/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(799): Cake\View\View->_getViewFileName('Api\\Authors\\ind...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render('index', NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(262): Cake\Controller\Controller->render('index')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(68): Crud\Controller\Component\CrudComponent->execute()
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\Api\AppController->invokeAction()
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\AuthorsController))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+
+
+2018-11-12 01:35:02 Error: [Crud\Error\Exception\ValidationException] 2 validation errors occurred
+Request URL: /api/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Listener\ApiListener.php(124): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(353): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(540): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Core\ProxyTrait.php(38): Crud\Controller\Component\CrudComponent->trigger('Crud.beforeRend...', Object(Crud\Event\Subject))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(171): Crud\Core\BaseObject->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(130): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\BaseAction.php(64): call_user_func_array(Array, Array)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(244): Crud\Action\BaseAction->handle(Array)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(68): Crud\Controller\Component\CrudComponent->execute()
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\Api\AppController->invokeAction()
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\AuthorsController))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-12 01:36:41 Error: [Crud\Error\Exception\ValidationException] 2 validation errors occurred
+Request URL: /api/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Listener\ApiListener.php(124): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(353): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(540): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Core\ProxyTrait.php(38): Crud\Controller\Component\CrudComponent->trigger('Crud.beforeRend...', Object(Crud\Event\Subject))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(171): Crud\Core\BaseObject->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(130): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\BaseAction.php(64): call_user_func_array(Array, Array)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(244): Crud\Action\BaseAction->handle(Array)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(68): Crud\Controller\Component\CrudComponent->execute()
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\Api\AppController->invokeAction()
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\AuthorsController))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-12 01:36:55 Error: [Crud\Error\Exception\ValidationException] 2 validation errors occurred
+Request URL: /api/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Listener\ApiListener.php(124): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(353): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(540): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Core\ProxyTrait.php(38): Crud\Controller\Component\CrudComponent->trigger('Crud.beforeRend...', Object(Crud\Event\Subject))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(171): Crud\Core\BaseObject->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(130): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\BaseAction.php(64): call_user_func_array(Array, Array)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(244): Crud\Action\BaseAction->handle(Array)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(68): Crud\Controller\Component\CrudComponent->execute()
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\Api\AppController->invokeAction()
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\AuthorsController))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-12 01:37:32 Error: [Crud\Error\Exception\ValidationException] 2 validation errors occurred
+Request URL: /api/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Listener\ApiListener.php(124): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(353): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(540): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Core\ProxyTrait.php(38): Crud\Controller\Component\CrudComponent->trigger('Crud.beforeRend...', Object(Crud\Event\Subject))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(171): Crud\Core\BaseObject->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(130): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\BaseAction.php(64): call_user_func_array(Array, Array)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(244): Crud\Action\BaseAction->handle(Array)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(68): Crud\Controller\Component\CrudComponent->execute()
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\Api\AppController->invokeAction()
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\AuthorsController))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-12 01:38:08 Error: [Crud\Error\Exception\ValidationException] 2 validation errors occurred
+Request URL: /api/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Listener\ApiListener.php(124): Crud\Listener\ApiListener->_exceptionResponse(Object(Cake\Event\Event), Array)
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(353): Crud\Listener\ApiListener->respond(Object(Cake\Event\Event))
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Event\EventManager.php(330): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(540): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Core\ProxyTrait.php(38): Crud\Controller\Component\CrudComponent->trigger('Crud.beforeRend...', Object(Crud\Event\Subject))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(171): Crud\Core\BaseObject->_trigger('beforeRender', Object(Crud\Event\Subject))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\AddAction.php(130): Crud\Action\AddAction->_error(Object(Crud\Event\Subject))
+#7 [internal function]: Crud\Action\AddAction->_post()
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Action\BaseAction.php(64): call_user_func_array(Array, Array)
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\Component\CrudComponent.php(244): Crud\Action\BaseAction->handle(Array)
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\friendsofcake\crud\src\Controller\ControllerTrait.php(68): Crud\Controller\Component\CrudComponent->execute()
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): App\Controller\Api\AppController->invokeAction()
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Api\AuthorsController))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-12 02:03:48 Error: [Cake\View\Exception\MissingTemplateException] Template file "Layout\TwitterBootstrap\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout\\TwitterBootstrap\\dashboard.ctp',
+)
+Request URL: /admin/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/admin/authors?page=2
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(1044): Cake\View\View->_getViewFileName('Layout\\TwitterB...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\src\Template\Admin\Authors\index.ctp(3): Cake\View\View->extend('/Layout/Twitter...')
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(1240): include('C:\\Program File...')
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(1201): Cake\View\View->_evaluate('C:\\Program File...', Array)
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\Program File...')
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\AuthorsController))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#21 {main}
+
+
+2018-11-12 02:05:48 Error: [LogicException] The "tb_actions" block was left open. Blocks are not allowed to cross files.
+Request URL: /admin/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/admin/authors?page=2
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\AuthorsController))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-11-12 02:08:33 Error: [LogicException] The "tb_actions" block was left open. Blocks are not allowed to cross files.
+Request URL: /admin/authors
+Referer URL: http://localhost/LibraryForTeachers/libraryforteachers/admin/authors?page=2
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\AuthorsController))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-11-12 02:10:23 Error: [LogicException] The "tb_actions" block was left open. Blocks are not allowed to cross files.
+Request URL: /admin/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\AuthorsController))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-11-12 02:11:55 Error: [LogicException] The "tb_actions" block was left open. Blocks are not allowed to cross files.
+Request URL: /admin/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\AuthorsController))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-11-12 02:12:03 Error: [LogicException] The "tb_actions" block was left open. Blocks are not allowed to cross files.
+Request URL: /admin/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\AuthorsController))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-11-12 02:12:54 Error: [LogicException] The "tb_actions" block was left open. Blocks are not allowed to cross files.
+Request URL: /admin/authors
+Stack Trace:
+#0 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\Program File...')
+#1 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\Admin\AuthorsController))
+#4 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+

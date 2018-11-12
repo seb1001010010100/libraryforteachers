@@ -3,6 +3,7 @@ namespace App\Test\TestCase\Controller;
 
 use App\Controller\UsersController;
 use Cake\TestSuite\IntegrationTestCase;
+use Cake\ORM\TableRegistry;
 
 /**
  * App\Controller\UsersController Test Case
@@ -47,7 +48,8 @@ class UsersControllerTest extends IntegrationTestCase
      */
     public function testAdd()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+      $this->markTestIncomplete('Not implemented yet.');
+
     }
 
     /**
@@ -57,7 +59,7 @@ class UsersControllerTest extends IntegrationTestCase
      */
     public function testEdit()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+
     }
 
     /**

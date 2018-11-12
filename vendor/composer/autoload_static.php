@@ -104,10 +104,12 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
             'Cake\\Composer\\' => 14,
             'Cake\\Chronos\\' => 13,
             'Cake\\' => 5,
+            'CakePdf\\' => 8,
             'CakePHP\\' => 8,
         ),
         'B' => 
         array (
+            'BootstrapUI\\' => 12,
             'Bake\\' => 5,
         ),
         'A' => 
@@ -290,9 +292,17 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
         array (
             0 => __DIR__ . '/..' . '/cakephp/cakephp/src',
         ),
+        'CakePdf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofcake/cakepdf/src',
+        ),
         'CakePHP\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/cakephp-codesniffer/CakePHP',
+        ),
+        'BootstrapUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofcake/bootstrap-ui/src',
         ),
         'Bake\\' => 
         array (

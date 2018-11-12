@@ -81,4 +81,18 @@ class UsersTableTest extends TestCase
     {
         $this->markTestIncomplete('Not implemented yet.');
     }
+
+    public function testAddXss(){
+
+      $user = $this->Users->newEntity();
+      $user->username = '<script>alert(document.cookie)</script>';
+      $user->email = 't@test.com';
+      $user->password = 'test';
+      $user->type = 'teacher';
+      $this->Users->save($user);
+
+      $query = $this->Users->find()->where(['email' => $user['email']]);
+      $this->assertEquals('<script>alert(document.cookie)</script>', $query->username);
+
+    }
 }

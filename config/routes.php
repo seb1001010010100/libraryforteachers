@@ -23,6 +23,8 @@ use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
 use Cake\Routing\Route\DashedRoute;
 
+Router::extensions(['pdf']);
+
 /**
  * The default class to use for all routes
  *
@@ -43,16 +45,23 @@ use Cake\Routing\Route\DashedRoute;
  * Cache: Routes are cached to improve performance, check the RoutingMiddleware
  * constructor in your `src/Application.php` file to change this behavior.
  *
- */
-Router::defaultRouteClass(DashedRoute::class);
-Router::extensions(['json', 'xml']);
+*/
+
+Router::prefix('api', function ($routes) {
+    $routes->extensions(['json', 'xml']);
+    $routes->resources('Authors');
+    $routes->fallbacks('InflectedRoute');
+});
+
+Router::prefix('Admin', function ($routes) {
+    $routes->fallbacks('InflectedRoute');
+});
 
 Router::scope('/', function (RouteBuilder $routes) {
     /**
      * Apply a middleware to the current route scope.
      * Requires middleware to be registered via `Application::routes()` with `registerMiddleware()`
      */
-    $routes->resources('Authors');
 
 
     /**

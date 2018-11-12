@@ -38,3 +38,212 @@ Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
 
 
 
+2018-11-11 23:22:00 Notice: Notice (8): Undefined property: Cake\ORM\Query::$username in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php, line 63]
+Request URL: /inscription
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Controller\UsersControllerTest::testAdd() - ROOT\tests\TestCase\Controller\UsersControllerTest.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:22:56 Notice: Notice (8): Undefined property: Cake\ORM\Query::$username in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php, line 63]
+Request URL: /Users/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Controller\UsersControllerTest::testAdd() - ROOT\tests\TestCase\Controller\UsersControllerTest.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:23:22 Notice: Notice (8): Trying to get property of non-object in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php, line 63]
+Request URL: /Users/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Controller\UsersControllerTest::testAdd() - ROOT\tests\TestCase\Controller\UsersControllerTest.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:27:27 Notice: Notice (8): Undefined property: Cake\ORM\Query::$username in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php, line 63]
+Request URL: /Users/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Controller\UsersControllerTest::testAdd() - ROOT\tests\TestCase\Controller\UsersControllerTest.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:30:32 Notice: Notice (8): Undefined property: Cake\ORM\Query::$username in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Controller\UsersControllerTest.php, line 62]
+Request URL: /Users/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Controller\UsersControllerTest::testAdd() - ROOT\tests\TestCase\Controller\UsersControllerTest.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:56:47 Notice: Notice (8): Undefined property: App\Test\TestCase\Model\Table\UsersTableTest::$Books in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php, line 87]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Model\Table\UsersTableTest::testAddXss() - ROOT\tests\TestCase\Model\Table\UsersTableTest.php, line 87
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:58:08 Notice: Notice (8): Undefined property: App\Test\TestCase\Model\Table\UsersTableTest::$Books in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php, line 87]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Model\Table\UsersTableTest::testAddXss() - ROOT\tests\TestCase\Model\Table\UsersTableTest.php, line 87
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:58:27 Notice: Notice (8): Undefined property: App\Test\TestCase\Model\Table\UsersTableTest::$Books in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php, line 87]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Model\Table\UsersTableTest::testAddXss() - ROOT\tests\TestCase\Model\Table\UsersTableTest.php, line 87
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-11 23:58:36 Notice: Notice (8): Undefined property: App\Test\TestCase\Model\Table\UsersTableTest::$Books in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php, line 94]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Model\Table\UsersTableTest::testAddXss() - ROOT\tests\TestCase\Model\Table\UsersTableTest.php, line 94
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 00:01:58 Notice: Notice (8): Undefined property: Cake\ORM\Query::$username in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php, line 98]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Model\Table\UsersTableTest::testAddXss() - ROOT\tests\TestCase\Model\Table\UsersTableTest.php, line 98
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 00:03:15 Notice: Notice (8): Undefined property: Cake\ORM\Query::$username in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php, line 102]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Model\Table\UsersTableTest::testAddXss() - ROOT\tests\TestCase\Model\Table\UsersTableTest.php, line 102
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
+2018-11-12 00:05:37 Notice: Notice (8): Undefined property: Cake\ORM\Query::$username in [C:\Program Files (x86)\Ampps\www\LibraryForTeachers\libraryforteachers\tests\TestCase\Model\Table\UsersTableTest.php, line 95]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+App\Test\TestCase\Model\Table\UsersTableTest::testAddXss() - ROOT\tests\TestCase\Model\Table\UsersTableTest.php, line 95
+ReflectionMethod::invokeArgs() - [internal], line ??
+PHPUnit_Framework_TestCase::runTest() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1062
+PHPUnit_Framework_TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 913
+PHPUnit_Framework_TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 686
+PHPUnit_Framework_TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 868
+PHPUnit_Framework_TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 733
+PHPUnit_TextUI_TestRunner::doRun() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 517
+PHPUnit_TextUI_Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 186
+PHPUnit_TextUI_Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 116
+[main] - ROOT\vendor\phpunit\phpunit\phpunit, line 52
+
+
+
