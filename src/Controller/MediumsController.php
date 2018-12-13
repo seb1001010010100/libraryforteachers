@@ -13,6 +13,20 @@ use App\Controller\AppController;
 class MediumsController extends AppController
 {
 
+
+    public function getMediums() {
+        $this->autoRender = false; // avoid to render view
+
+        $mediums = $this->Mediums->find('all', [
+            'contain' => ['Types'],
+        ]);
+
+        $mediumsJ = json_encode($mediums);
+        $this->response->type('json');
+        $this->response->body($mediumsJ);
+
+    }
+
     /**
      * Index method
      *
@@ -23,6 +37,7 @@ class MediumsController extends AppController
         $mediums = $this->paginate($this->Mediums);
 
         $this->set(compact('mediums'));
+        $this->set('_serialize', ['mediums']);
     }
 
     /**
@@ -39,6 +54,7 @@ class MediumsController extends AppController
         ]);
 
         $this->set('medium', $medium);
+        $this->set('_serialize', ['mediums']);
     }
 
     /**
@@ -59,6 +75,7 @@ class MediumsController extends AppController
             $this->Flash->error(__('The medium could not be saved. Please, try again.'));
         }
         $this->set(compact('medium'));
+        $this->set('_serialize', ['mediums']);
     }
 
     /**
@@ -83,6 +100,7 @@ class MediumsController extends AppController
             $this->Flash->error(__('The medium could not be saved. Please, try again.'));
         }
         $this->set(compact('medium'));
+        $this->set('_serialize', ['mediums']);
     }
 
     /**

@@ -2,8 +2,8 @@
 <?php use Cake\Routing\Router; ?>
 <?php
 $urlToLinkedListFilter = $this->Url->build([
-    "controller" => "Types",
-    "action" => "getByMedium",
+    "controller" => "Mediums",
+    "action" => "getMediums",
     "_ext" => "json"
         ]);
 echo $this->Html->scriptBlock('var urlToLinkedListFilter = "' . $urlToLinkedListFilter . '";', ['block' => true]);
@@ -30,13 +30,35 @@ echo $this->Html->script('Books/add');
         <li><?= $this->Html->link(__('New Category'), ['controller' => 'Categories', 'action' => 'add']) ?></li>
     </ul>
 </nav>
-<div class="books form large-9 medium-8 columns content">
+
+
+<div class="books form large-9 medium-8 columns content" ng-app="linkedlists" ng-controller="mediumsController">
+
     <?= $this->Form->create($book, ['type' => 'file']) ?>
     <fieldset>
         <legend><?= __('Add Book') ?></legend>
+        <div>
+          Mediums:
+          <select name="medium_id"
+                  id="medium-id"
+                  ng-model="medium"
+                  ng-options="medium.name for medium in mediums track by medium.id"
+                  >
+              <option value=''>Select</option>
+          </select>
+      </div>
+      <div>
+          Types:
+          <select name="type_id"
+                  id="type-id"
+                  ng-disabled="!medium"
+                  ng-model="type"
+                  ng-options="type.name for type in medium.types track by type.id"
+                  >
+              <option value=''>Select</option>
+          </select>
+      </div>
         <?php
-            echo $this->Form->control('medium_id', ['options' => $mediums]);
-            echo $this->Form->control('type_id', ['options' => $types]);
             echo $this->Form->input('book_title', ['type' => 'text']);
             echo $this->Form->control('date_of_publication');
             echo $this->Form->control('authors._ids', ['options' => $authors]);

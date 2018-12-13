@@ -29,6 +29,7 @@ class BooksController extends AppController
         $books = $this->paginate($this->Books);
 
         $this->set(compact('books'));
+        $this->set('_serialize', ['book']);
     }
 
     /**
@@ -45,6 +46,7 @@ class BooksController extends AppController
         ]);
 
         $this->set('book', $book);
+        $this->set('_serialize', ['book']);
     }
 
     /**
@@ -91,11 +93,26 @@ class BooksController extends AppController
           }
 
         }
+        // Bâtir la liste des catégories
+        $this->loadModel('Mediums');
+        $mediums = $this->Mediums->find('list', ['limit' => 200]);
+
+        // Extraire le id de la première catégorie
+        $mediums  = $mediums->toArray();
+        reset($mediums);
+        $medium_id = key($mediums);
+
+        // Bâtir la liste des sous-catégories reliées à cette catégorie
+        $types = $this->Books->Types->find('list', [
+            'conditions' => ['Types.medium_id' => $medium_id],
+        ]);
+
         $authors = $this->Books->Authors->find('list', ['limit' => 200]);
         $categories = $this->Books->Categories->find('list', ['limit' => 200]);
-        $mediums = $this->Books->Mediums->find('list', ['limit' => 200]);
-        $types = $this->Books->Types->find('list', ['limit' => 200]);
+        //$mediums = $this->Books->Mediums->find('list', ['limit' => 200]);
+        //$types = $this->Books->Types->find('list', ['limit' => 200]);
         $this->set(compact('book', 'authors', 'categories','mediums','types'));
+        $this->set('_serialize', ['book', 'authors', 'categories','mediums','types']);
     }
 
     /**

@@ -40,6 +40,7 @@ $cakeDescription = "library for teacher";
         echo $this->Html->css('https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
         echo $this->Html->css('http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css');
         echo $this->Html->script('http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js');
+        echo $this->Html->script('http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js');
     ?>
 
     <?= $this->fetch('meta') ?>

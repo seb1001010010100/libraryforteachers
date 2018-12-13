@@ -13,6 +13,24 @@ use App\Controller\AppController;
 class TypesController extends AppController
 {
 
+  public function getByMedium() {
+    $medium_id = $this->request->query('medium_id');
+
+    $types = $this->Types->find('all', [
+        'conditions' => ['Types.medium_id' => $medium_id],
+    ]);
+    $this->set('types',$types);
+    $this->set('_serialize', ['types']);
+}
+
+    public function getTypesSortedByMediums() {
+    $mediums = $this->Types->Mediums->find('all', [
+        'contain' => ['Types'],
+    ]);
+    $this->set('mediums',$mediums);
+    $this->set('_serialize', ['mediums']);
+}
+
     /**
      * Index method
      *
@@ -26,6 +44,7 @@ class TypesController extends AppController
         $types = $this->paginate($this->Types);
 
         $this->set(compact('types'));
+        $this->set('_serialize', ['types']);
     }
 
     /**
@@ -42,6 +61,7 @@ class TypesController extends AppController
         ]);
 
         $this->set('type', $type);
+        $this->set('_serialize', ['types']);
     }
 
     /**
@@ -63,6 +83,7 @@ class TypesController extends AppController
         }
         $media = $this->Types->Media->find('list', ['limit' => 200]);
         $this->set(compact('type', 'media'));
+        $this->set('_serialize', ['types']);
     }
 
     /**
@@ -88,6 +109,7 @@ class TypesController extends AppController
         }
         $media = $this->Types->Media->find('list', ['limit' => 200]);
         $this->set(compact('type', 'media'));
+        $this->set('_serialize', ['types']);
     }
 
     /**

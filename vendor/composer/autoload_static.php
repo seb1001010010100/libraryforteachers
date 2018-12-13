@@ -30,28 +30,28 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
     );
 
     public static $prefixLengthsPsr4 = array (
-        'p' => 
+        'p' =>
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
-        'Z' => 
+        'Z' =>
         array (
             'Zend\\Diactoros\\' => 15,
         ),
-        'X' => 
+        'X' =>
         array (
             'XdgBaseDir\\' => 11,
         ),
-        'W' => 
+        'W' =>
         array (
             'WyriHaximus\\TwigView\\' => 21,
             'Webmozart\\Assert\\' => 17,
         ),
-        'T' => 
+        'T' =>
         array (
             'Twig\\' => 5,
         ),
-        'S' => 
+        'S' =>
         array (
             'Symfony\\Polyfill\\Php72\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -66,7 +66,7 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
             'Seld\\PharUtils\\' => 15,
             'Seld\\JsonLint\\' => 14,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psy\\' => 4,
             'Psr\\Log\\' => 8,
@@ -74,25 +74,25 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
             'PhpParser\\' => 10,
             'Phinx\\' => 6,
         ),
-        'M' => 
+        'M' =>
         array (
             'Migrations\\' => 11,
             'M1\\Env\\' => 7,
         ),
-        'J' => 
+        'J' =>
         array (
             'JsonSchema\\' => 11,
             'Jasny\\Twig\\' => 11,
             'JakubOnderka\\PhpConsoleColor\\' => 29,
         ),
-        'D' => 
+        'D' =>
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
             'DebugKit\\Test\\Fixture\\' => 22,
             'DebugKit\\' => 9,
         ),
-        'C' => 
+        'C' =>
         array (
             'Crud\\' => 5,
             'Composer\\XdebugHandler\\' => 23,
@@ -107,12 +107,12 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
             'CakePdf\\' => 8,
             'CakePHP\\' => 8,
         ),
-        'B' => 
+        'B' =>
         array (
             'BootstrapUI\\' => 12,
             'Bake\\' => 5,
         ),
-        'A' => 
+        'A' =>
         array (
             'Aura\\Intl\\' => 10,
             'App\\Test\\' => 9,
@@ -122,205 +122,205 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
     );
 
     public static $prefixDirsPsr4 = array (
-        'phpDocumentor\\Reflection\\' => 
+        'phpDocumentor\\Reflection\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
-        'Zend\\Diactoros\\' => 
+        'Zend\\Diactoros\\' =>
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
         ),
-        'XdgBaseDir\\' => 
+        'XdgBaseDir\\' =>
         array (
             0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
         ),
-        'WyriHaximus\\TwigView\\' => 
+        'WyriHaximus\\TwigView\\' =>
         array (
             0 => __DIR__ . '/..' . '/wyrihaximus/twig-view/src',
         ),
-        'Webmozart\\Assert\\' => 
+        'Webmozart\\Assert\\' =>
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Twig\\' => 
+        'Twig\\' =>
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
-        'Symfony\\Polyfill\\Php72\\' => 
+        'Symfony\\Polyfill\\Php72\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
+        'Symfony\\Polyfill\\Mbstring\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Ctype\\' => 
+        'Symfony\\Polyfill\\Ctype\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Symfony\\Component\\Yaml\\' => 
+        'Symfony\\Component\\Yaml\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
-        'Symfony\\Component\\VarDumper\\' => 
+        'Symfony\\Component\\VarDumper\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Symfony\\Component\\Process\\' => 
+        'Symfony\\Component\\Process\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/process',
         ),
-        'Symfony\\Component\\Finder\\' => 
+        'Symfony\\Component\\Finder\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
         ),
-        'Symfony\\Component\\Filesystem\\' => 
+        'Symfony\\Component\\Filesystem\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/filesystem',
         ),
-        'Symfony\\Component\\Console\\' => 
+        'Symfony\\Component\\Console\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'Symfony\\Component\\Config\\' => 
+        'Symfony\\Component\\Config\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
-        'Seld\\PharUtils\\' => 
+        'Seld\\PharUtils\\' =>
         array (
             0 => __DIR__ . '/..' . '/seld/phar-utils/src',
         ),
-        'Seld\\JsonLint\\' => 
+        'Seld\\JsonLint\\' =>
         array (
             0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
         ),
-        'Psy\\' => 
+        'Psy\\' =>
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
         ),
-        'Psr\\Log\\' => 
+        'Psr\\Log\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
-        'Psr\\Http\\Message\\' => 
+        'Psr\\Http\\Message\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'PhpParser\\' => 
+        'PhpParser\\' =>
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Phinx\\' => 
+        'Phinx\\' =>
         array (
             0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
         ),
-        'Migrations\\' => 
+        'Migrations\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/migrations/src',
         ),
-        'M1\\Env\\' => 
+        'M1\\Env\\' =>
         array (
             0 => __DIR__ . '/..' . '/m1/env/src',
         ),
-        'JsonSchema\\' => 
+        'JsonSchema\\' =>
         array (
             0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
-        'Jasny\\Twig\\' => 
+        'Jasny\\Twig\\' =>
         array (
             0 => __DIR__ . '/..' . '/jasny/twig-extensions/src',
         ),
-        'JakubOnderka\\PhpConsoleColor\\' => 
+        'JakubOnderka\\PhpConsoleColor\\' =>
         array (
             0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
         ),
-        'Doctrine\\Instantiator\\' => 
+        'Doctrine\\Instantiator\\' =>
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
-        'DeepCopy\\' => 
+        'DeepCopy\\' =>
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'DebugKit\\Test\\Fixture\\' => 
+        'DebugKit\\Test\\Fixture\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/debug_kit/tests/Fixture',
         ),
-        'DebugKit\\' => 
+        'DebugKit\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/debug_kit/src',
         ),
-        'Crud\\' => 
+        'Crud\\' =>
         array (
             0 => __DIR__ . '/..' . '/friendsofcake/crud/src',
         ),
-        'Composer\\XdebugHandler\\' => 
+        'Composer\\XdebugHandler\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/xdebug-handler/src',
         ),
-        'Composer\\Spdx\\' => 
+        'Composer\\Spdx\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/spdx-licenses/src',
         ),
-        'Composer\\Semver\\' => 
+        'Composer\\Semver\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
         ),
-        'Composer\\CaBundle\\' => 
+        'Composer\\CaBundle\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
         ),
-        'Composer\\' => 
+        'Composer\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/composer/src/Composer',
         ),
-        'Cake\\Test\\' => 
+        'Cake\\Test\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/cakephp/tests',
         ),
-        'Cake\\Composer\\' => 
+        'Cake\\Composer\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/plugin-installer/src',
         ),
-        'Cake\\Chronos\\' => 
+        'Cake\\Chronos\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/chronos/src',
         ),
-        'Cake\\' => 
+        'Cake\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/cakephp/src',
         ),
-        'CakePdf\\' => 
+        'CakePdf\\' =>
         array (
             0 => __DIR__ . '/..' . '/friendsofcake/cakepdf/src',
         ),
-        'CakePHP\\' => 
+        'CakePHP\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/cakephp-codesniffer/CakePHP',
         ),
-        'BootstrapUI\\' => 
+        'BootstrapUI\\' =>
         array (
             0 => __DIR__ . '/..' . '/friendsofcake/bootstrap-ui/src',
         ),
-        'Bake\\' => 
+        'Bake\\' =>
         array (
             0 => __DIR__ . '/..' . '/cakephp/bake/src',
         ),
-        'Aura\\Intl\\' => 
+        'Aura\\Intl\\' =>
         array (
             0 => __DIR__ . '/..' . '/aura/intl/src',
         ),
-        'App\\Test\\' => 
+        'App\\Test\\' =>
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'App\\' => 
+        'App\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'Ajgl\\Twig\\Extension\\' => 
+        'Ajgl\\Twig\\Extension\\' =>
         array (
             0 => __DIR__ . '/..' . '/ajgl/breakpoint-twig-extension/src',
         ),
@@ -331,52 +331,52 @@ class ComposerStaticInit7b20dfb0d702115e7ecae0bcb32e05c3
     );
 
     public static $prefixesPsr0 = array (
-        'j' => 
+        'j' =>
         array (
-            'josegonzalez\\Dotenv' => 
+            'josegonzalez\\Dotenv' =>
             array (
                 0 => __DIR__ . '/..' . '/josegonzalez/dotenv/src',
                 1 => __DIR__ . '/..' . '/josegonzalez/dotenv/tests',
             ),
         ),
-        'U' => 
+        'U' =>
         array (
-            'Umpirsky\\' => 
+            'Umpirsky\\' =>
             array (
                 0 => __DIR__ . '/..' . '/umpirsky/twig-php-function/src',
             ),
         ),
-        'T' => 
+        'T' =>
         array (
-            'Twig_' => 
+            'Twig_' =>
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
             ),
         ),
-        'P' => 
+        'P' =>
         array (
-            'Prophecy\\' => 
+            'Prophecy\\' =>
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
         ),
-        'J' => 
+        'J' =>
         array (
-            'JakubOnderka\\PhpConsoleHighlighter' => 
+            'JakubOnderka\\PhpConsoleHighlighter' =>
             array (
                 0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
             ),
         ),
-        'D' => 
+        'D' =>
         array (
-            'Detection' => 
+            'Detection' =>
             array (
                 0 => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/namespaced',
             ),
         ),
-        'A' => 
+        'A' =>
         array (
-            'Aptoma' => 
+            'Aptoma' =>
             array (
                 0 => __DIR__ . '/..' . '/aptoma/twig-markdown/src',
             ),

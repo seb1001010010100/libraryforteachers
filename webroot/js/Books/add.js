@@ -1,25 +1,8 @@
-$(document).ready(function () {
-    // The path to action from CakePHP is in urlToLinkedListFilter
-    $('#medium-id').on('change', function () {
-        var mediumId = $(this).val();
-        if (mediumId) {
-            $.ajax({
-                url: urlToLinkedListFilter,
-                data: 'medium_id=' + mediumId,
-                success: function (types) {
-                    $select = $('#type-id');
-                    $select.find('option').remove();
-                    $.each(types, function (key, value)
-                    {
-                        $.each(value, function (childKey, childValue) {
-                            $select.append('<option value=' + childValue.id + '>' + childValue.name + '</option>');
-                        });
-                    });
-                }
-            });
-        } else {
-            $('#type-id').html('<option value="">Select Category first</option>');
-        }
+var app = angular.module('linkedlists', []);
+
+app.controller('mediumsController', function ($scope, $http) {
+    // l'url vient de add.ctp
+    $http.get(urlToLinkedListFilter).then(function (response) {
+        $scope.mediums = response.data;
     });
-    
 });
