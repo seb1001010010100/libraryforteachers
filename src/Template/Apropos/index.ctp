@@ -30,7 +30,7 @@
       <h2>TP3</h2>
       <p>Le démarrage de session et le changement de mot de passe ce fait sur l'index de book <a href="http://localhost/libraryforteachers">(index du site complet)</a>. Le capcha est fonctionelle. Pour changer de mot de passe, utiliser le username : admin, et le password : z</br>
         les listes liées sont dans <a href="http://localhost/libraryforteachers/books/add">l'ajout de livre</a> (add book). Les liste sont le medium(livre,film,jeux video) et le type.</br>
-        le modèle "CRUD" monopage est dans <a href="http://localhost/libraryforteachers/authors">authors</a></br>
+        le modèle "CRUD" monopage est dans <a href="http://localhost/libraryforteachers/authors">authors</a> (sidenote: des fois les url dans le app.js change de relatif a absolue. En se moment ils marchent en absolue. )</br>
         Le fonctionnement du cliquer-glisser pour ajouter une image à l'application est dans l'index du livre <a href="http://localhost/libraryforteachers">(index du site complet)</a>, mais ne fait qu'enregistrer l'image sur le serveur sans la sauvegarder dans la base de donne</br>
         Probleme : L'index du site <a href="http://localhost/libraryforteachers">(index de livre)</a> n'affiche plus la sidebar d'action (lorsque connect en admin) a cause de l'implementation du css de materialize. Utilisez le chemin dans la bar de navigation pour change de page (sorry).</p>
       <h2>TP2</h2>

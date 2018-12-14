@@ -5,14 +5,14 @@ app.service('AuthorCRUDService', [ '$http', function($http) {
         return $http({
             method : 'GET',
             headers: { 'X-Requested-With' : 'XMLHttpRequest', 'Accept' : 'application/json'},
-            url : 'view/' + authorId
+            url : 'authors/view/' + authorId
         });
     }
 
     this.addAuthor = function addAuthor(first_name, surname) {
       return $http({
           method : 'POST',
-          url : 'add/',
+          url : 'authors/add/',
           headers: { 'X-Requested-With' : 'XMLHttpRequest', 'Accept' : 'application/json'},
           data : {
               first_name : first_name,
@@ -23,7 +23,7 @@ app.service('AuthorCRUDService', [ '$http', function($http) {
     this.updateAuthor = function updateAuthor(id, first_name, surname) {
       return $http({
           method : 'PATCH',
-          url : 'edit/' + id,
+          url : 'authors/edit/' + id,
           headers: { 'X-Requested-With' : 'XMLHttpRequest', 'Accept' : 'application/json'},
           data : {
               first_name : first_name,
@@ -35,14 +35,14 @@ app.service('AuthorCRUDService', [ '$http', function($http) {
       return $http({
           method : 'DELETE',
           headers: { 'X-Requested-With' : 'XMLHttpRequest', 'Accept' : 'application/json'},
-          url : 'delete/' + id
+          url : 'authors/delete/' + id
       })
     }
     this.getAllAuthors = function getAllAuthors() {
       return $http({
           method : 'GET',
           headers: { 'X-Requested-With' : 'XMLHttpRequest', 'Accept' : 'application/json'},
-          url : 'all/'
+          url : 'authors/all/'
       });
     }
 } ]);
