@@ -281,4 +281,28 @@ class BooksController extends AppController
       }
 
     }
+
+    public function drop()
+{
+    if ($this->request->is(array('post', 'put')))
+    {
+        if(!empty($_FILES))
+        {
+            $fileName = $_FILES['file']['name']; //Get the image
+            $file_full = 'img/';     //Image storage path
+            $file=basename($fileName);
+            $ext=pathinfo($file,PATHINFO_EXTENSION);
+            $file_temp_name= $_FILES['file']['tmp_name'];
+            $new_file_name = time().'.'.$ext;
+            if(move_uploaded_file($file_temp_name, $file_full.$new_file_name))
+            {
+                echo "File Uploaded successfully";die;
+            }
+            else
+            {
+                echo "Error";die;
+            }
+        }
+    }
+}
 }

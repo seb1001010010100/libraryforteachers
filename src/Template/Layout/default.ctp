@@ -25,9 +25,10 @@ $cakeDescription = "library for teacher";
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
-
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('style.css') ?>
+
+    
     <?= $this->Html->css('Authors/basic.css') ?>
     <?php if($this->Session->read("Auth.User.type") == 'teacher' || !$this->Session->read("Auth.User")){ ?>
 
@@ -41,11 +42,13 @@ $cakeDescription = "library for teacher";
         echo $this->Html->css('http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css');
         echo $this->Html->script('http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js');
         echo $this->Html->script('http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js');
+        echo $this->Html->script('materialize.min');
     ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+
 
 </head>
 <body>

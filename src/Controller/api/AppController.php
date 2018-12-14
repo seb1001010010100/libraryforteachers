@@ -26,7 +26,7 @@ class AppController extends Controller {
                 'Crud.ApiQueryLog'
             ]
         ]);
-/*        $this->loadComponent('Auth', [
+        $this->loadComponent('Auth', [
             'storage' => 'Memory',
             'authenticate' => [
                 'Form' => [
@@ -45,6 +45,6 @@ class AppController extends Controller {
             'unauthorizedRedirect' => false,
             'checkAuthIn' => 'Controller.initialize'
         ]);
-*/    }
+    }
 
 }

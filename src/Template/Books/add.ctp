@@ -8,6 +8,7 @@ $urlToLinkedListFilter = $this->Url->build([
         ]);
 echo $this->Html->scriptBlock('var urlToLinkedListFilter = "' . $urlToLinkedListFilter . '";', ['block' => true]);
 echo $this->Html->script('Books/add');
+
 ?>
 
 
@@ -70,6 +71,7 @@ echo $this->Html->script('Books/add');
     <?= $this->Form->button(__('Submit')) ?>
     <?= $this->Form->end() ?>
 </div>
+
 <script>
     jQuery('#tag').autocomplete({
         source:'<?php echo Router::url(array('controller' => 'Books', 'action' => 'findTags')); ?>',
