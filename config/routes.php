@@ -57,6 +57,11 @@ Router::prefix('api', function ($routes) {
 Router::prefix('Admin', function ($routes) {
     $routes->fallbacks('InflectedRoute');
 });
+Router::scope('/', function ($routes) {
+    // Prior to 3.5.0 use `extensions()`
+    $routes->setExtensions(['json']);
+    $routes->resources('Authors');
+});
 
 Router::scope('/', function (RouteBuilder $routes) {
     /**
